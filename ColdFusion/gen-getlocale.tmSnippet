@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>getlocale(${1:})</string>
+      <key>name</key>
+      <string>getlocale</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>getlocale</string>
+      <key>uuid</key>
+      <string>e3f60afa-8deb-441d-a842-68def31cdcc3</string>
+   </dict>
+</plist>

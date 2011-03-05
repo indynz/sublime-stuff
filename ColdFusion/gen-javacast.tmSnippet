@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>javacast(${1:"${2:type}", "${3:variable}"})</string>
+      <key>name</key>
+      <string>javacast</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>javacast</string>
+      <key>uuid</key>
+      <string>2d9ef492-b7f5-4de5-9738-7cb8f491e3e3</string>
+   </dict>
+</plist>

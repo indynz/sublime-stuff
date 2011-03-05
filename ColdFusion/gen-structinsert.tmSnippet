@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>structInsert(${1:${2:structure}, "${3:key}", ${4:value}${5:, [allowoverwrite]}})</string>
+      <key>name</key>
+      <string>structInsert</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>structinsert</string>
+      <key>uuid</key>
+      <string>4713dad2-9e1b-4f5d-8583-82cf968cafdf</string>
+   </dict>
+</plist>

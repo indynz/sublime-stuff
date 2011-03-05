@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>listValueCount(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})</string>
+      <key>name</key>
+      <string>listValueCount</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>listvaluecount</string>
+      <key>uuid</key>
+      <string>820cb120-72de-44a5-9f7a-ce7ed6cd9f9c</string>
+   </dict>
+</plist>

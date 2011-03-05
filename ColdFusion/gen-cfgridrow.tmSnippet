@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfgridrow ${1:${2:data="$3"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfgridrow</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfgridrow</string>
+      <key>uuid</key>
+      <string>b7990513-dad3-4065-af89-04906345d360</string>
+   </dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>isQuery(${1:"${2:value}"})</string>
+      <key>name</key>
+      <string>isQuery</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>isquery</string>
+      <key>uuid</key>
+      <string>08f50f53-4f5c-4b3d-a6de-7bb771810808</string>
+   </dict>
+</plist>

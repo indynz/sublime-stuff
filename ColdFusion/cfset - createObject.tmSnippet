@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfset ${1:variable_name} = createObject("component","${2:component_path}")${3:.init()}&gt;</string>
+	<key>name</key>
+	<string>cfset - createObject</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>cfsetco</string>
+	<key>uuid</key>
+	<string>2C012410-AB8E-41FB-9CF6-B6FB9EE681C8</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>isuserinrole(${1:"${2:role_name}"})</string>
+      <key>name</key>
+      <string>isuserinrole</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>isuserinrole</string>
+      <key>uuid</key>
+      <string>42498b73-5875-4ed5-864c-82d8f25a4142</string>
+   </dict>
+</plist>

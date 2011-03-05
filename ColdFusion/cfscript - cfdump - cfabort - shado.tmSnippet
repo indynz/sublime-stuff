@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>application.shado_obj_factory.get("shadomx.util.cfml").cfdump(${1:variable name});
+application.shado_obj_factory.get("shadomx.util.cfml").cfabort();
+$0</string>
+	<key>name</key>
+	<string>cfscript - cfdump - cfabort</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>cfsduab</string>
+	<key>uuid</key>
+	<string>245173FD-009C-4A79-9E69-49FD25637C07</string>
+</dict>
+</plist>

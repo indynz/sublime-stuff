@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfdocument ${1:${2:format="$3" }${4:filename="$5" }${6:overwrite="$7" }${8:name="$9" }${10:pagetype="$11" }${12:pageheight="$13" }${14:pagewidth="$15" }${16:orientation="$17" }${18:margintop="$19" }${20:marginbottom="$21" }${22:marginleft="$23" }${24:marginright="$25" }${26:unit="$27" }${28:encryption="$29" }${30:ownerpassword="$31" }${32:userpassword="$33" }${34:permissions="$35" }${36:fontembed="$37" }${38:backgroundvisible="$39" }${40:scale="$41"}}&gt;
+	$0
+&lt;/cfdocument&gt;</string>
+      <key>name</key>
+      <string>cfdocument</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfdocument</string>
+      <key>uuid</key>
+      <string>ce894325-d713-4b04-aeee-160ec5a6e3ae</string>
+   </dict>
+</plist>

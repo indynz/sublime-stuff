@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>createODBCdatetime(${1:${2:date}})</string>
+      <key>name</key>
+      <string>createODBCdatetime</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>createodbcdatetime</string>
+      <key>uuid</key>
+      <string>cdb03735-4373-419d-849e-f473fba8a323</string>
+   </dict>
+</plist>

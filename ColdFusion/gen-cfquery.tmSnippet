@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfquery ${1:${2:name="$3" }${4:datasource="$5" }${6:dbtype="$7" }${8:username="$9" }${10:password="$11" }${12:maxrows="$13" }${14:blockfactor="$15" }${16:timeout="$17" }${18:cachedafter="$19" }${20:cachedwithin="$21" }${22:debug="$23" }${24:result="$25"}}&gt;
+	$0
+&lt;/cfquery&gt;</string>
+      <key>name</key>
+      <string>cfquery</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfquery</string>
+      <key>uuid</key>
+      <string>a14f51a9-730c-49ea-83a6-c8dd741e2d56</string>
+   </dict>
+</plist>

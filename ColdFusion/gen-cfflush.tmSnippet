@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfflush ${1:${2:interval="$3"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfflush</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfflush</string>
+      <key>uuid</key>
+      <string>c64f36d9-5b22-4491-80d6-0ee736f9302a</string>
+   </dict>
+</plist>

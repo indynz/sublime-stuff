@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cffile action="write" file="$2" output="#$3#" charset="UTF-8"&gt;$0</string>
+      <key>name</key>
+      <string>cffile - write</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cffile</string>
+      <key>uuid</key>
+      <string>b68bb352-0a8a-4523-949d-8dec57f2fe5c</string>
+   </dict>
+</plist>

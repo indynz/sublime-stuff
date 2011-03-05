@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfinclude ${1:${2:template="$3"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfinclude</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfinclude</string>
+      <key>uuid</key>
+      <string>d460e84c-3d11-4db1-aeeb-dcfa70e6840f</string>
+   </dict>
+</plist>

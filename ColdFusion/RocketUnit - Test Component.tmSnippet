@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfcomponent extends="tests.Test"&gt;
+
+	&lt;cfscript&gt;
+
+		rfun$0
+		
+	&lt;/cfscript&gt;
+
+&lt;/cfcomponent&gt;
+</string>
+	<key>name</key>
+	<string>CFWheels - Test Component</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>ctestcase</string>
+	<key>uuid</key>
+	<string>BA19425B-6EB8-4A3D-AE5E-56D076555C01</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfinvokeargument ${1:${2:name="$3" }${4:value="$5" }${6:omit="$7"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfinvokeargument</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfinvokeargument</string>
+      <key>uuid</key>
+      <string>89300caf-82af-4c16-80a0-18eae72190a4</string>
+   </dict>
+</plist>

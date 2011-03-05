@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>htmlCodeFormat(${1:"${2:string}"${3:, [version]}})</string>
+      <key>name</key>
+      <string>htmlCodeFormat</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>htmlcodeformat</string>
+      <key>uuid</key>
+      <string>e00ac2cb-140e-4d75-ac2c-ca446a35f6d6</string>
+   </dict>
+</plist>

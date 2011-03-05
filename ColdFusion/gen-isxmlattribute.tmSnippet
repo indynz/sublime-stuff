@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>isxmlattribute(${1:${2:value}})</string>
+      <key>name</key>
+      <string>isxmlattribute</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>isxmlattribute</string>
+      <key>uuid</key>
+      <string>862fd017-3ccd-4d37-ad08-e164fa939bc1</string>
+   </dict>
+</plist>

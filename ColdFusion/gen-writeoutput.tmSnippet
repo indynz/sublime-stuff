@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>writeOutput(${1:"${2:string}"})</string>
+      <key>name</key>
+      <string>writeOutput</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>writeoutput</string>
+      <key>uuid</key>
+      <string>20597fb5-c908-4c05-90a7-01717b769121</string>
+   </dict>
+</plist>

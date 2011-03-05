@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfhttpparam ${1:${2:type="$3" }${4:name="$5" }${6:value="$7" }${8:file="$9" }${10:encoded="$11" }${12:mimetype="$13"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfhttpparam</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfhttpparam</string>
+      <key>uuid</key>
+      <string>299f33d9-4b45-45dd-a225-92f1b02d703a</string>
+   </dict>
+</plist>

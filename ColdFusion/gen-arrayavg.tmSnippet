@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>arrayAvg(${1:${2:array}})</string>
+      <key>name</key>
+      <string>arrayAvg</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>arrayavg</string>
+      <key>uuid</key>
+      <string>fd4d281c-eb30-4113-9cc8-5cc8b26aa4b2</string>
+   </dict>
+</plist>

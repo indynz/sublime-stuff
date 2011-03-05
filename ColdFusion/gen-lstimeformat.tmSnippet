@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>lstimeformat(${1:${2:time}${3:, [mask]}})</string>
+      <key>name</key>
+      <string>lstimeformat</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>lstimeformat</string>
+      <key>uuid</key>
+      <string>ba62541e-74d0-4a3d-8ebe-d60583fa7818</string>
+   </dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>xmlParse(${1:"${2:xmlstring}"${3:, [casesensitive]}${4:, [validator]}})</string>
+      <key>name</key>
+      <string>xmlParse</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>xmlparse</string>
+      <key>uuid</key>
+      <string>c515b0b6-e196-45da-bc2c-d769e5756a2d</string>
+   </dict>
+</plist>

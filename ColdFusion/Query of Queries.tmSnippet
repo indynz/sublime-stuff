@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfquery name="${1:qReturn}" dbtype="query"&gt;
+	SELECT	*
+	FROM		$2
+&lt;/cfquery&gt;
+</string>
+	<key>name</key>
+	<string>Query of Queries</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>qoq</string>
+	<key>uuid</key>
+	<string>4266FCF4-A46B-4CD8-A155-C231AE345F55</string>
+</dict>
+</plist>

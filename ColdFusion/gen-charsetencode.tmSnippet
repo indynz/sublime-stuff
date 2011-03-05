@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>charsetencode(${1:${2:binaryobject}, "${3:encoding}"})</string>
+      <key>name</key>
+      <string>charsetencode</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>charsetencode</string>
+      <key>uuid</key>
+      <string>ff559930-8126-4366-ae32-72d3b9c354db</string>
+   </dict>
+</plist>

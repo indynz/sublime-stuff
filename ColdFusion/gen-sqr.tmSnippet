@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>sqr(${1:${2:number}})</string>
+      <key>name</key>
+      <string>sqr</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>sqr</string>
+      <key>uuid</key>
+      <string>88f862eb-4dcd-4f76-92d5-d33e28ee3c8f</string>
+   </dict>
+</plist>

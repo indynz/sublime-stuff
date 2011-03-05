@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>dateDiff(${1:"${2:datepart}", ${3:date1}, ${4:date2}})</string>
+      <key>name</key>
+      <string>dateDiff</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>datediff</string>
+      <key>uuid</key>
+      <string>7eed8105-15e3-472e-b1cc-7679295ff97d</string>
+   </dict>
+</plist>

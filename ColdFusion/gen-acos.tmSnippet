@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>acos(${1:${2:number}})</string>
+      <key>name</key>
+      <string>acos</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>acos</string>
+      <key>uuid</key>
+      <string>4500e55a-36f7-4745-9b06-2815d9e65e23</string>
+   </dict>
+</plist>

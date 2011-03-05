@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>createObject(${1:"${2:type}", "${3:context}", "${4:class}", "${5:locale}", "${6:servername}", "${7:component_name}", "${8:urltowsdl}"${9:, [portname]}})</string>
+      <key>name</key>
+      <string>createObject</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>createobject</string>
+      <key>uuid</key>
+      <string>d83c0bce-428f-45c2-93a0-306f608c34e2</string>
+   </dict>
+</plist>

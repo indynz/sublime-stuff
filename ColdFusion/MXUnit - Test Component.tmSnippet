@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfcomponent displayName="Test$1" extends="mxunit.framework.TestCase"&gt;
+
+	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+		
+	&lt;!--- Begin specific tests ---&gt;
+	&lt;cffunction name="testinit" access="public" returnType="void"&gt;
+		&lt;cfset assertEquals("$4",getMetaData(variables.$2).displayname,"The returned component does not match what was expected.")&gt;
+	&lt;/cffunction&gt;
+
+	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+		
+	fun$0
+
+	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+		
+	&lt;!--- setup and teardown ---&gt;
+	&lt;cffunction name="setUp" returntype="void" access="public"&gt;
+		&lt;cfset variables.${2:oTest} = createObject("component","$3").init()&gt;
+	&lt;/cffunction&gt;
+	
+	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+		
+	&lt;cffunction name="tearDown" returntype="void" access="public"&gt;
+		&lt;!--- Any code needed to return your environment to normal goes here ---&gt;
+	&lt;/cffunction&gt;
+	
+	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+		
+&lt;/cfcomponent&gt;
+</string>
+	<key>name</key>
+	<string>MXUnit - Test Component</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>testcomp</string>
+	<key>uuid</key>
+	<string>57170C44-7206-4A9D-9483-8F30EEA4B40D</string>
+</dict>
+</plist>

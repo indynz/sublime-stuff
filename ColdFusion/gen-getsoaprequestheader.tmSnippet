@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>getsoaprequestheader(${1:"${2:namespace}", "${3:name}"${4:, [asXML]}})</string>
+      <key>name</key>
+      <string>getsoaprequestheader</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>getsoaprequestheader</string>
+      <key>uuid</key>
+      <string>1daf7199-4253-46bc-b13d-a60161d9daac</string>
+   </dict>
+</plist>

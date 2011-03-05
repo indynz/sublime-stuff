@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfset ${1:variable_name} = application.shado_obj_factory.get("${2:component_path}")&gt;</string>
+	<key>name</key>
+	<string>cfset - shado_obj_factory</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>cfsetfac</string>
+	<key>uuid</key>
+	<string>7722E46F-8BF5-4DC7-929E-1CC4A55E7BBD</string>
+</dict>
+</plist>

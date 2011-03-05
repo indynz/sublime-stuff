@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>mid(${1:"${2:string}", ${3:start}, ${4:count}})</string>
+      <key>name</key>
+      <string>mid</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>mid</string>
+      <key>uuid</key>
+      <string>75b50fd0-edc3-4b43-9a5f-793f09feabb3</string>
+   </dict>
+</plist>

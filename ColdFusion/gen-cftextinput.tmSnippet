@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cftextinput ${1:${2:name="$3" }${4:value="$5" }${6:required="$7" }${8:range="$9" }${10:validate="$11" }${12:onvalidate="$13" }${14:pattern="$15" }${16:message="$17" }${18:onerror="$19" }${20:size="$21" }${22:font="$23" }${24:fontsize="$25" }${26:italic="$27" }${28:bold="$29" }${30:height="$31" }${32:width="$33" }${34:vspace="$35" }${36:hspace="$37" }${38:align="$39" }${40:bgcolor="$41" }${42:textcolor="$43" }${44:maxlength="$45" }${46:notsupported="$47"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cftextinput</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cftextinput</string>
+      <key>uuid</key>
+      <string>38dd615a-54a9-4a23-ba47-1e2d41075e9b</string>
+   </dict>
+</plist>

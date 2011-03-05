@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>isDefined(${1:"${2:variable_name}"})</string>
+      <key>name</key>
+      <string>isDefined</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>isdefined</string>
+      <key>uuid</key>
+      <string>44a896eb-6380-4c82-bdd6-ffaf1f64adcb</string>
+   </dict>
+</plist>

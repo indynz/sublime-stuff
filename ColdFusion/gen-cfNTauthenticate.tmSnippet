@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfNTauthenticate ${1:${2:name="$3" }${4:password="$5" }${6:domain="$7" }${8:result="$9" }${10:listgroups="$11" }${12:throwonerror="$13"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfNTauthenticate</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfNTauthenticate</string>
+      <key>uuid</key>
+      <string>86a9d817-2591-4bba-9026-41ff19a57dc5</string>
+   </dict>
+</plist>

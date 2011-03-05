@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfmodule ${1:${2:template="$3" }${4:name="$5" }${6:attributecollection="$7"}}&gt;
+	$0
+&lt;/cfmodule&gt;</string>
+      <key>name</key>
+      <string>cfmodule</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfmodule</string>
+      <key>uuid</key>
+      <string>4862c76e-4722-4254-aa38-0eb2531159c7</string>
+   </dict>
+</plist>

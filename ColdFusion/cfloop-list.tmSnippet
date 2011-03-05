@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfloop list="#${1:}#" index="${2:i}"&gt;
+	$0
+&lt;/cfloop&gt;</string>
+      <key>name</key>
+      <string>cfloop - list</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfloop</string>
+      <key>uuid</key>
+      <string>e7d72dd1-8b45-47fa-8fe6-a778acdc4712</string>
+   </dict>
+</plist>

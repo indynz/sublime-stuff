@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfcalendar ${1:${2:name="$3" }${4:height="$5" }${6:width="$7" }${8:selecteddate="$9" }${10:startrange="$11" }${12:endrange="$13" }${14:disabled="$15" }${16:mask="$17" }${18:firstdayofweek="$19" }${20:daynames="$21" }${22:monthnames="$23" }${24:style="$25" }${26:onchange="$27"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfcalendar</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfcalendar</string>
+      <key>uuid</key>
+      <string>3b151eab-a323-4e4e-bae1-a54943530018</string>
+   </dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>preserveSingleQuotes(${1:"${2:variable}"})</string>
+      <key>name</key>
+      <string>preserveSingleQuotes</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>preservesinglequotes</string>
+      <key>uuid</key>
+      <string>029ca15b-b833-4057-ba70-2e6332e85bd6</string>
+   </dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfreturn qReturn&gt;
+$0</string>
+	<key>name</key>
+	<string>return - query</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>retq</string>
+	<key>uuid</key>
+	<string>7E572648-A477-48F9-8710-0D24DA207116</string>
+</dict>
+</plist>

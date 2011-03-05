@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfcomponent&gt;
+
+      &lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+            
+      fun$0
+
+      &lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
+
+&lt;/cfcomponent&gt;</string>
+      <key>name</key>
+      <string>cfcomponent - bare</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>comp</string>
+      <key>uuid</key>
+      <string>d5353081-953d-433e-bd9a-e5d424a3352d</string>
+   </dict>
+</plist>

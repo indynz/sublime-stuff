@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfset stCache 		= structNew()&gt;
+&lt;cfset stCache.key 	= "$1"&gt;
+&lt;cfset stCache.scope 	= "$2"&gt;
+
+&lt;cfif application.shado.cacheService.inCache(key=stCache.key,scope=stCache.scope)&gt;
+	&lt;cfset qReturn = application.shado.cacheService.getFromCache(key=stCache.key,scope=stCache.scope)&gt;
+&lt;cfelse&gt;
+	${3:&lt;cfset qReturn	= ${4}&gt;}
+	&lt;cfset application.shado.cacheService.putIntoCache(key=stCache.key,scope=stCache.scope, data=qReturn)&gt;
+&lt;/cfif&gt;
+</string>
+	<key>name</key>
+	<string>variable cache - query</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>varcachequery</string>
+	<key>uuid</key>
+	<string>9592174C-AB44-4053-AA9F-97BF6C7DF551</string>
+</dict>
+</plist>

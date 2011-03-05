@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfdirectory ${1:${2:action="$3" }${4:directory="$5" }${6:name="$7" }${8:filter="$9" }${10:mode="$11" }${12:sort="$13" }${14:newdirectory="$15" }${16:recurse="$17"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfdirectory</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfdirectory</string>
+      <key>uuid</key>
+      <string>f849eef0-e854-4176-83f5-30bf82433054</string>
+   </dict>
+</plist>

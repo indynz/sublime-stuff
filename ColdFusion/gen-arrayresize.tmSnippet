@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>arrayresize(${1:${2:array}, ${3:size}})</string>
+      <key>name</key>
+      <string>arrayresize</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>arrayresize</string>
+      <key>uuid</key>
+      <string>fc648e35-0c67-40d0-92f5-a69ced488796</string>
+   </dict>
+</plist>

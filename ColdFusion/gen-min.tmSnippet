@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>min(${1:${2:number1}, ${3:number2}})</string>
+      <key>name</key>
+      <string>min</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>min</string>
+      <key>uuid</key>
+      <string>738b2a9a-bc3d-4158-b73c-c625cd7b067a</string>
+   </dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>toScript(${1:${2:cfvar}, "${3:javascriptvar}"${4:, [outputformat]}${5:, [ASFormat]}})</string>
+      <key>name</key>
+      <string>toScript</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>toscript</string>
+      <key>uuid</key>
+      <string>9c35a060-7be2-4fe5-8c87-489765fbb699</string>
+   </dict>
+</plist>

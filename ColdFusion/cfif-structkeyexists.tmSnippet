@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfif structKeyExists(${1:struct_name}, "${2:key_name}")&gt;
+	$0
+&lt;/cfif&gt;</string>
+      <key>name</key>
+      <string>cfif - structKeyExists</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfif</string>
+      <key>uuid</key>
+      <string>cabde127-17f9-4654-b380-426154662cb9</string>
+   </dict>
+</plist>

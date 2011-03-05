@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>xmlValidate(${1:${2:xmlDoc}${3:, [validator]}})</string>
+      <key>name</key>
+      <string>xmlValidate</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>xmlvalidate</string>
+      <key>uuid</key>
+      <string>ded2454d-dedf-4ccc-99d5-9af8439db1d1</string>
+   </dict>
+</plist>

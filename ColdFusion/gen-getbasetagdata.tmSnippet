@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>getbasetagdata(${1:"${2:tagname}"${3:, [instancenumber]}})</string>
+      <key>name</key>
+      <string>getbasetagdata</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>getbasetagdata</string>
+      <key>uuid</key>
+      <string>be9a8b91-cdb8-4ee5-89e1-3c7a3af99b3d</string>
+   </dict>
+</plist>

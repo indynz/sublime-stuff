@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>quarter(${1:${2:date}})</string>
+      <key>name</key>
+      <string>quarter</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>quarter</string>
+      <key>uuid</key>
+      <string>6d478fda-e7de-4455-bce5-dcfe4a17c2df</string>
+   </dict>
+</plist>

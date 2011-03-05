@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfcache ${1:${2:action="$3" }${4:directory="$5" }${6:timespan="$7" }${8:expireurl="$9" }${10:username="$11" }${12:password="$13" }${14:port="$15" }${16:protocol="$17"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfcache</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfcache</string>
+      <key>uuid</key>
+      <string>48c2980b-17d0-4634-ae8c-d1f5737a2d2e</string>
+   </dict>
+</plist>

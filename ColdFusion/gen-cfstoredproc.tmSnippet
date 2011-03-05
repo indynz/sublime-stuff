@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfstoredproc ${1:${2:procedure="$3" }${4:datasource="$5" }${6:username="$7" }${8:password="$9" }${10:blockfactor="$11" }${12:debug="$13" }${14:returncode="$15" }${16:result="$17"}}&gt;
+	$0
+&lt;/cfstoredproc&gt;</string>
+      <key>name</key>
+      <string>cfstoredproc</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfstoredproc</string>
+      <key>uuid</key>
+      <string>400a5d4e-b214-439c-aaac-e5b1905fdc5e</string>
+   </dict>
+</plist>

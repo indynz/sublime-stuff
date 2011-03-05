@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfldap ${1:${2:server="$3" }${4:port="$5" }${6:username="$7" }${8:password="$9" }${10:action="$11" }${12:name="$13" }${14:timeout="$15" }${16:maxrows="$17" }${18:start="$19" }${20:scope="$21" }${22:attributes="$23" }${24:returnasbinary="$25" }${26:filter="$27" }${28:sort="$29" }${30:sortcontrol="$31" }${32:dn="$33" }${34:startrow="$35" }${36:modifytype="$37" }${38:rebind="$39" }${40:referral="$41" }${42:secure="$43" }${44:separator="$45" }${46:delimiter="$47"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfldap</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfldap</string>
+      <key>uuid</key>
+      <string>39b0fc15-82bf-4349-a77c-d1780142eaea</string>
+   </dict>
+</plist>

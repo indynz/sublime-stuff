@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>expandpath(${1:"${2:relative_path}"})</string>
+      <key>name</key>
+      <string>expandpath</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>expandpath</string>
+      <key>uuid</key>
+      <string>98279e8a-3114-4f6b-af03-3b76179e0867</string>
+   </dict>
+</plist>

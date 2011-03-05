@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cftrace ${1:${2:abort="$3" }${4:category="$5" }${6:inline="$7" }${8:text="$9" }${10:type="$11" }${12:var="$13"}}&gt;
+	$0
+&lt;/cftrace&gt;</string>
+      <key>name</key>
+      <string>cftrace</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cftrace</string>
+      <key>uuid</key>
+      <string>171f30a9-fc68-44cc-900a-e156caf49378</string>
+   </dict>
+</plist>

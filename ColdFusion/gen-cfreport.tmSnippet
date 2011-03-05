@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfreport ${1:${2:template="$3" }${4:format="$5" }${6:name="$7" }${8:filename="$9" }${10:query="$11" }${12:overwrite="$13" }${14:encryption="$15" }${16:ownerpassword="$17" }${18:userpassword="$19" }${20:permissions="$21" }${22:datasource="$23" }${24:type="$25" }${26:timeout="$27" }${28:report="$29" }${30:orderby="$31" }${32:username="$33" }${34:password="$35" }${36:formula="$37"}}&gt;
+	$0
+&lt;/cfreport&gt;</string>
+      <key>name</key>
+      <string>cfreport</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfreport</string>
+      <key>uuid</key>
+      <string>cf5fda8b-93d3-4e22-9e76-87a2243b4907</string>
+   </dict>
+</plist>

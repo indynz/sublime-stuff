@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfformitem ${1:${2:type="$3" }${4:style="$5" }${6:width="$7" }${8:height="$9" }${10:enabled="$11" }${12:visible="$13" }${14:tooltip="$15" }${16:bind="$17"}}&gt;
+	$0
+&lt;/cfformitem&gt;</string>
+      <key>name</key>
+      <string>cfformitem</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfformitem</string>
+      <key>uuid</key>
+      <string>dec323c8-8404-49ec-a88d-d9f12bb6728e</string>
+   </dict>
+</plist>

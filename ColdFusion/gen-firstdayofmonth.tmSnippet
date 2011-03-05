@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>firstDayOfMonth(${1:${2:date}})</string>
+      <key>name</key>
+      <string>firstDayOfMonth</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>firstdayofmonth</string>
+      <key>uuid</key>
+      <string>680961cd-57c0-4678-85f1-1b2f01cbcd95</string>
+   </dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>quotedValueList(${1:${2:column}${3:, [delimiter]}})</string>
+      <key>name</key>
+      <string>quotedValueList</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>quotedvaluelist</string>
+      <key>uuid</key>
+      <string>d5b9f229-8c26-402a-bec9-2113fb412071</string>
+   </dict>
+</plist>

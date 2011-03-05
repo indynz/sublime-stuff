@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>getsoapresponse(${1:"${2:webservice}"})</string>
+      <key>name</key>
+      <string>getsoapresponse</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>getsoapresponse</string>
+      <key>uuid</key>
+      <string>428fcc8e-1b37-42f7-bb55-f19fac414c78</string>
+   </dict>
+</plist>

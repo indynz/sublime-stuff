@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>sendgatewaymessage(${1:"${2:gatewayID}", ${3:data}})</string>
+      <key>name</key>
+      <string>sendgatewaymessage</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>sendgatewaymessage</string>
+      <key>uuid</key>
+      <string>aa62eeec-8bfb-4a22-a851-3d712f6426e4</string>
+   </dict>
+</plist>

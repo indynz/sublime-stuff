@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>cos(${1:${2:number}})</string>
+      <key>name</key>
+      <string>cos</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cos</string>
+      <key>uuid</key>
+      <string>649530b0-41d9-4037-9bfe-2e06cd472467</string>
+   </dict>
+</plist>

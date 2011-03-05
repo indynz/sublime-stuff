@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfqueryparam cfsqltype="CF_SQL_VARCHAR" value="$1"&gt;$0</string>
+	<key>name</key>
+	<string>cfqueryparam - varchar</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>cfqueryparam</string>
+	<key>uuid</key>
+	<string>B3FAF6C2-224F-40BC-8602-30E2C09F0F41</string>
+</dict>
+</plist>

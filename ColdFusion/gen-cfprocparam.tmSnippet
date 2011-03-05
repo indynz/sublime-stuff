@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfprocparam ${1:${2:type="$3" }${4:variable="$5" }${6:value="$7" }${8:cfsqltype="$9" }${10:maxlength="$11" }${12:scale="$13" }${14:null="$15"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfprocparam</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfprocparam</string>
+      <key>uuid</key>
+      <string>5b9e3f46-042a-44bb-a197-411b9c8f0b4f</string>
+   </dict>
+</plist>

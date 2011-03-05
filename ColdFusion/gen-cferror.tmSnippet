@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cferror ${1:${2:type="$3" }${4:template="$5" }${6:mailto="$7" }${8:exception="$9"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cferror</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cferror</string>
+      <key>uuid</key>
+      <string>983a1359-3ca0-4bab-b1ed-697f2970dc72</string>
+   </dict>
+</plist>

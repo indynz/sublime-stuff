@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>xmlChildPos(${1:${2:elem}, "${3:childname}", ${4:n}})</string>
+      <key>name</key>
+      <string>xmlChildPos</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>xmlchildpos</string>
+      <key>uuid</key>
+      <string>36ebad5d-7357-473e-bd3e-dceea1f8db3a</string>
+   </dict>
+</plist>

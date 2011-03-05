@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfapplet ${1:${2:appletsource="$3" }${4:name="$5" }${6:height="$7" }${8:width="$9" }${10:vspace="$11" }${12:hspace="$13" }${14:align="$15" }${16:notsupported="$17"}} /&gt;$0</string>
+      <key>name</key>
+      <string>cfapplet</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cfapplet</string>
+      <key>uuid</key>
+      <string>ce7bd8fa-158f-4f9c-9daa-645bc36e4985</string>
+   </dict>
+</plist>

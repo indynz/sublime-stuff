@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dump();</string>
+	<key>name</key>
+	<string>cfscript - dump</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>cfsd</string>
+	<key>uuid</key>
+	<string>8F2E2354-7BE5-4834-91C1-2632B2D4A6EF</string>
+</dict>
+</plist>

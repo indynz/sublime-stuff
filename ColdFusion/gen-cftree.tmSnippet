@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cftree ${1:${2:name="$3" }${4:format="$5" }${6:required="$7" }${8:delimiter="$9" }${10:completepath="$11" }${12:appendkey="$13" }${14:highlighthref="$15" }${16:onvalidate="$17" }${18:message="$19" }${20:onerror="$21" }${22:lookandfeel="$23" }${24:font="$25" }${26:fontsize="$27" }${28:italic="$29" }${30:bold="$31" }${32:height="$33" }${34:width="$35" }${36:vspace="$37" }${38:hspace="$39" }${40:align="$41" }${42:border="$43" }${44:hscroll="$45" }${46:vscroll="$47" }${48:style="$49" }${50:enabled="$51" }${52:visible="$53" }${54:tooltip="$55" }${56:onchange="$57" }${58:notsupported="$59"}}&gt;
+	$0
+&lt;/cftree&gt;</string>
+      <key>name</key>
+      <string>cftree</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cftree</string>
+      <key>uuid</key>
+      <string>99bc6515-4e35-42fb-947e-32ab94e0e8f2</string>
+   </dict>
+</plist>

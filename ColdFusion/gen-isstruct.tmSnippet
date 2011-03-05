@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>isStruct(${1:${2:variable}})</string>
+      <key>name</key>
+      <string>isStruct</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>isstruct</string>
+      <key>uuid</key>
+      <string>b3ca87b3-8574-4946-a128-d9fa5231c1f6</string>
+   </dict>
+</plist>

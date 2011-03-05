@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>arrayprepend(${1:${2:array}, ${3:value}})</string>
+      <key>name</key>
+      <string>arrayprepend</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>arrayprepend</string>
+      <key>uuid</key>
+      <string>1c416a77-bea9-4833-a432-9d96fc671434</string>
+   </dict>
+</plist>

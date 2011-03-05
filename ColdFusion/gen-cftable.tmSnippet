@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cftable ${1:${2:query="$3" }${4:maxrows="$5" }${6:colspacing="$7" }${8:headerlines="$9" }${10:htmltable="$11" }${12:border="$13" }${14:colheaders="$15" }${16:startrow="$17"}}&gt;
+	$0
+&lt;/cftable&gt;</string>
+      <key>name</key>
+      <string>cftable</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>cftable</string>
+      <key>uuid</key>
+      <string>f46e76ec-6b45-4f67-86d1-6c0904a61f4f</string>
+   </dict>
+</plist>

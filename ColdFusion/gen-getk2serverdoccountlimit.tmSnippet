@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>getk2serverdoccountlimit(${1:})</string>
+      <key>name</key>
+      <string>getk2serverdoccountlimit</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>getk2serverdoccountlimit</string>
+      <key>uuid</key>
+      <string>4374566e-0188-40d6-a5ba-fb847b4c75c0</string>
+   </dict>
+</plist>

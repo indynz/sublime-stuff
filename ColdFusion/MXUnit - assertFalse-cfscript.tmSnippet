@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>assertFalse(${1:Boolean Condition});</string>
+	<key>name</key>
+	<string>MXUnit - assertFalse - cfscript</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>asf</string>
+	<key>uuid</key>
+	<string>C59B703C-32AC-4C91-8174-84DCEC44D252</string>
+</dict>
+</plist>
