@@ -1,0 +1,13 @@
+Installation
+============
+
+These snippets can be used for ColdFusion coding in Sublime Text 2.
+
+These a bunch of ColdFusion snippets that I've taken from the TextMate bundle, and add a few of my own.
+
+Also I've included a Textmate color scheme that I like -- Merbivore Soft. I've tweaked it to make it work much nicer with ColdFusion code.
+
+* Copy the "ColdFusion" folder into <code>~/Library/Application Support/Sublime Text 2</code>
+* If you want to use the color scheme that I use (a variation of Merbivore Soft for TextMate), copy the file <code>Color Scheme - Default/Indy Merbivore Soft.tmTheme</code> into <code>~/Library/Application Support/Sublime Text 2/Color Scheme - Default</code> folder.
+
+Note: I've tested this only on Mac OSX. Not sure how it works on Windows/Linux.
