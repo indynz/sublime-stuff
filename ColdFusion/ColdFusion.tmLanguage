@@ -442,58 +442,6 @@
 					</dict>
 				</array>
 			</dict>
-<!--
-			<dict>
-				<key>begin</key>
-				<string>(?:^\s+)?&lt;((?i:cfscript))\b(?![^&gt;]*/&gt;)</string>
-				<key>captures</key>
-				<dict>
-					<key>1</key>
-					<dict>
-						<key>name</key>
-						<string>entity.name.tag.script.html</string>
-					</dict>
-				</dict>
-				<key>end</key>
-				<string>(?&lt;=&lt;/(cfscript|CFSCRIPT))&gt;(?:\s*\n)?</string>
-				<key>name</key>
-				<string>source.js.embedded.html</string>
-				<key>patterns</key>
-				<array>
-					<dict>
-						<key>include</key>
-						<string>#tag-stuff</string>
-					</dict>
-					<dict>
-						<key>begin</key>
-						<string>(?&lt;!&lt;/(?:cfscript|CFSCRIPT))&gt;</string>
-						<key>end</key>
-						<string>&lt;/((?i:cfscript))</string>
-						<key>patterns</key>
-						<array>
-							<dict>
-								<key>match</key>
-								<string>//.*?((?=&lt;/cfscript)|$\n?)</string>
-								<key>name</key>
-								<string>comment.line.double-slash.js</string>
-							</dict>
-							<dict>
-								<key>begin</key>
-								<string>/\*</string>
-								<key>end</key>
-								<string>\*/|(?=&lt;/cfscript)</string>
-								<key>name</key>
-								<string>comment.block.js</string>
-							</dict>
-							<dict>
-								<key>include</key>
-								<string>source.js</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
--->		
 			<dict>
 				<key>begin</key>
 				<string>component\b[^{]*{</string>
