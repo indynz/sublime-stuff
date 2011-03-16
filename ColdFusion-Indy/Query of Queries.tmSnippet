@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>&lt;cfquery name="${1:qReturn}" dbtype="query"&gt;
 	SELECT	*
-	FROM		$2
+	FROM	$2
 &lt;/cfquery&gt;
 </string>
 	<key>name</key>

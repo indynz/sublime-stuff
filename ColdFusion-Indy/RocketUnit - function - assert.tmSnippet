@@ -12,7 +12,7 @@ $0</string>
 	<key>scope</key>
 	<string>text.html.cfm</string>
 	<key>tabTrigger</key>
-	<string>ctestfun</string>
+	<string>rfun</string>
 	<key>uuid</key>
 	<string>C9430F07-C8BF-4074-A591-569FD721FA75</string>
 </dict>

@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;cfreturn stReturn&gt;
-$0</string>
+	<string>&lt;cfreturn stReturn&gt;$0</string>
 	<key>name</key>
 	<string>return - struct</string>
 	<key>scope</key>

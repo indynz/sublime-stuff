@@ -3,7 +3,7 @@
    <dict>
       <key>content</key>
       <string>&lt;cfscript&gt;
-      $0
+$0
 &lt;/cfscript&gt;</string>
       <key>name</key>
       <string>cfscript - simple</string>

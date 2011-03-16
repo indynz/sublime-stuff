@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;cfreturn bReturn&gt;$0</string>
+	<string>assert("${0:statement}")</string>
 	<key>name</key>
-	<string>return - boolean</string>
+	<string>CFWheels - assert</string>
 	<key>scope</key>
 	<string>text.html.cfm</string>
 	<key>tabTrigger</key>
-	<string>retb</string>
+	<string>ra</string>
 	<key>uuid</key>
-	<string>7655F5BB-FB6C-488C-B288-6C12DE52E691</string>
+	<string>C9430F07-C8BF-4074-A591-569FD721FA75</string>
 </dict>
 </plist>
