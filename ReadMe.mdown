@@ -13,4 +13,5 @@ Also I've included a Textmate color scheme that I like -- Merbivore Soft. I've t
 * If you want to use the color scheme that I use (a variation of Merbivore Soft for TextMate), copy the file <code>Color Scheme - Default/Indy Merbivore Soft.tmTheme</code> into <code>~/Library/Application Support/Sublime Text 2/Color Scheme - Default</code> folder.
 * Copy the "ColdFusion-Indy" folder into <code>~/Library/Application Support/Sublime Text 2</code> -- these are the snippets that I find useful myself. You don't have to copy this across for ColdFusion bundle to work on Sublime Text.
 
-Note: I've tested this only on Mac OSX. Not sure how it works on Windows/Linux.
+Note: The above paths are for OS X. To find the path for Sublime Text 2's extension folder in other operating systems, open Sublime Text 2 and click Preferences -> "Browse Packages..."
+
