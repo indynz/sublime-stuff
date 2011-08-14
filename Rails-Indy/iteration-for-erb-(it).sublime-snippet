@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<% for ${2:item} in ${1:objects} %>
+  $3
+<% end %>
+]]></content>
+    <tabTrigger>it</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>for loop (rhtml)</description>
+</snippet>

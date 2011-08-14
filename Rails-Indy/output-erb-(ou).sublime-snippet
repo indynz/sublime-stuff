@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= ${1} %>]]></content>
+    <tabTrigger>ou</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Output</description>
+</snippet>

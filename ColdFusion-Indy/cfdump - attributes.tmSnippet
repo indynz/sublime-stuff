@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+   <dict>
+      <key>content</key>
+      <string>&lt;cfdump var="#request.attributes#"&gt;$0</string>
+      <key>name</key>
+      <string>cfdump request.attributes</string>
+      <key>scope</key>
+      <string>text.html.cfm</string>
+      <key>tabTrigger</key>
+      <string>duat</string>
+      <key>uuid</key>
+      <string>f6f27572-d7a6-4aef-82c1-d6dfeb143411</string>
+   </dict>
+</plist>

@@ -4,37 +4,37 @@
 	<dict>
 		<key>bundleUUID</key>
 		<string>@BUNDLE_UUID@</string>
-		
+
 		<key>fileTypes</key>
 		<array>
 			<string>cfm</string>
 			<string>cfml</string>
 			<string>cfc</string>
 		</array>
-		
+
 		<key>firstLineMatch</key>
 		<string>&lt;!DOCTYPE|&lt;(?i:html)</string>
-		
+
 		<key>foldingStartMarker</key>
-		<string>(?x) 
-		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl|cfloop|cfif|cfswitch|cfcomponent|cffunction|cfcase|cfdefaultcase|cfsavecontent|cfscript)\b.*?&gt; 
-		        |&lt;!---(?!.*---\s*&gt;)|function\s*|if 
+		<string>(?x)
+		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl|cfloop|cfif|cfswitch|cfcomponent|cffunction|cfcase|cfdefaultcase|cfsavecontent|cfscript)\b.*?&gt;
+		        |&lt;!---(?!.*---\s*&gt;)|function\s*|if
 		        )</string>
 
 		<key>foldingStopMarker</key>
-		<string>(?x) 
-		(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl|cfloop|cfif|cfswitch|cfcomponent|cffunction|cfcase|cfdefaultcase|cfsavecontent|cfscript)&gt; 
-		        |^(?!.*?&lt;!---).*?---\s*&gt;|\} 
+		<string>(?x)
+		(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl|cfloop|cfif|cfswitch|cfcomponent|cffunction|cfcase|cfdefaultcase|cfsavecontent|cfscript)&gt;
+		        |^(?!.*?&lt;!---).*?---\s*&gt;|\}
 		        )</string>
 
 		<key>keyEquivalent</key>
 		<string>^~@c</string>
-		
+
 		<key>name</key>
 		<string>ColdFusion</string>
-		
+
 		<key>patterns</key>
-		<array>				
+		<array>
 			<dict>
 				<key>match</key>
 				<string>&lt;(cf|CF)[\W]*&gt;</string>
@@ -45,8 +45,8 @@
 				<key>include</key>
 				<string>#tag-finder</string>
 			</dict>
-			
-			
+
+
 			<dict>
 				<key>begin</key>
 				<string>/\*</string>
@@ -62,13 +62,13 @@
 				</dict>
 				<key>name</key>
 				<string>comment.block.cfml</string>
-			</dict>			
-			
-			
-			
-			
-			
-			
+			</dict>
+
+
+
+
+
+
 			<dict>
 				<key>begin</key>
 				<string>&lt;\?(xml)</string>
@@ -114,9 +114,9 @@
 				<key>end</key>
 				<string>&gt;</string>
 				<key>name</key>
-				
+
 				<string>meta.tag.sgml.html</string>
-				
+
 				<key>patterns</key>
 				<array>
 					<dict>
@@ -165,7 +165,7 @@
 			<dict>
 				<key>begin</key>
 				<string>(?:^\s+)?&lt;((?i:style))\b(?![^&gt;]*/&gt;)</string>
-				
+
 				<key>captures</key>
 				<dict>
 					<key>1</key>
@@ -174,13 +174,13 @@
 						<string>entity.name.tag.style.html</string>
 					</dict>
 				</dict>
-				
+
 				<key>end</key>
 				<string>&lt;/((?i:style))&gt;(?:\s*\n)?</string>
-				
+
 				<key>name</key>
 				<string>source.css.embedded.html</string>
-				
+
 				<key>patterns</key>
 				<array>
 					<dict>
@@ -190,10 +190,10 @@
 					<dict>
 						<key>begin</key>
 						<string>&gt;</string>
-						
+
 						<key>end</key>
 						<string>(?=&lt;/(?i:style))</string>
-						
+
 						<key>patterns</key>
 						<array>
 							<!-- <dict>
@@ -215,7 +215,7 @@
 			<dict>
 				<key>begin</key>
 				<string>(?:^\s+)?&lt;((?i:cfquery))\b(?![^&gt;]*/&gt;)</string>
-				
+
 				<key>captures</key>
 				<dict>
 					<key>1</key>
@@ -225,13 +225,13 @@
 						<!-- <string>entity.name.tag.cfquery.html</string> -->
 					</dict>
 				</dict>
-				
+
 				<key>end</key>
 				<string>&lt;/((?i:cfquery))&gt;(?:\s*\n)?</string>
-				
+
 				<key>name</key>
 				<string>source.sql.embedded.html</string>
-				
+
 				<key>patterns</key>
 				<array>
 					<!-- this is here to colour the cfquery tag's attributes -->
@@ -456,10 +456,10 @@
 						<string>source.java</string>
 					</dict>
 				</array>
-			</dict>			
-			
-			
-			
+			</dict>
+
+
+
 			<dict>
 				<key>begin</key>
 				<string>&lt;/?((?i:body|head|html)\b)</string>
@@ -569,7 +569,7 @@
 				<string>invalid.illegal.bad-angle-bracket.html</string>
 			</dict>
 		</array>
-		
+
 		<key>repository</key>
 		<dict>
 			<key>cfcomment</key>
@@ -595,7 +595,7 @@
 					</dict> -->
 				</array>
 			</dict>
-			
+
 			<key>htmlcomment</key>
 			<dict>
 				<key>begin</key>
@@ -614,12 +614,12 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<key>cffunction</key>
 			<dict>
 				<key>begin</key>
 				<string>&lt;(cffunction)</string>
-				
+
 				<key>captures</key>
 				<dict>
 					<key>1</key>
@@ -628,13 +628,13 @@
 						<string>entity.name.tag.other.html</string>
 					</dict>
 				</dict>
-				
+
 				<key>end</key>
 				<string>&gt;</string>
-				
+
 				<key>name</key>
 				<string>meta.tag.other.html</string>
-				
+
 				<key>patterns</key>
 				<array>
 					<dict>
@@ -645,19 +645,19 @@
 								<key>name</key>
 								<string>entity.other.attribute-name.xml</string>
 							</dict>
-							
+
 							<key>3</key>
 							<dict>
 								<key>name</key>
 								<string>punctuation.definition.string.begin</string>
 							</dict>
-							
+
 							<key>4</key>
 							<dict>
 								<key>name</key>
 								<string>entity.name.function.cfml</string>
 							</dict>
-							
+
 							<key>5</key>
 							<dict>
 								<key>name</key>
@@ -667,7 +667,7 @@
 						<key>match</key>
 						<string>\b([nN][aA][mM][Ee])\b\s*(=)\s*(["'])([A-Za-z$_0-9]+)(["'])</string>
 					</dict>
-					
+
 					<dict>
 						<key>include</key>
 						<string>source.cfml</string>
@@ -678,7 +678,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<key>embedded-code</key>
 			<dict>
 				<key>patterns</key>
@@ -706,7 +706,7 @@
 					 -->
 				</array>
 			</dict>
-			
+
 			<key>entities</key>
 			<dict>
 				<key>patterns</key>
@@ -725,7 +725,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<key>string-double-quoted</key>
 			<dict>
 				<key>begin</key>
@@ -746,7 +746,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<key>string-single-quoted</key>
 			<dict>
 				<key>begin</key>
@@ -767,20 +767,20 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<!-- Does function calls. For example, the xmlparse in cfset x=xmlparse() -->
 			<key>inline-function-stuff</key>
 			<dict>
 				<key>begin</key>
 				<!-- [^\#"'] -->
 				<string>[a-zA-Z0-9_\.]+\(</string>
-			
+
 				<key>contentName</key>
 				<string>support.function.parameters</string>
-			
+
 				<key>end</key>
 				<string>\)</string>
-			
+
 				<key>name</key>
 				<string>support.function</string>
 				<key>patterns</key>
@@ -799,7 +799,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<!-- the stuff between the ## -->
 			<key>coldfusion-script</key>
 			<dict>
@@ -821,7 +821,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<!-- normal attributes -->
 			<key>tag-generic-attribute</key>
 			<dict>
@@ -830,13 +830,13 @@
 					<dict>
 						<key>match</key>
 						<string>\b([a-zA-Z0-9_\-:]+)</string>
-				
+
 						<key>name</key>
 						<string>entity.other.attribute-name.xml</string>
 					</dict>
 				</array>
 			</dict>
-			
+
 			<!-- ID attributes on elements (shows up in the symbol list) -->
 			<key>tag-id-attribute</key>
 			<dict>
@@ -900,7 +900,7 @@
 					</dict>
 				</array>
 			</dict>
-			
+
 			<!-- handles all the inner workings of the tags -->
 			<key>tag-stuff</key>
 			<dict>
@@ -934,7 +934,7 @@
 						<key>include</key>
 						<string>#embedded-code</string>
 					</dict>
-					
+
 					<dict>
 						<key>match</key>
 						<string>.var\s</string>
@@ -953,12 +953,12 @@
 					</dict>
 				</array>
 			</dict>
-		
+
 			<key>tag-finder</key>
 			<dict>
 				<key>begin</key>
 				<string>&lt;([a-zA-Z0-9:]+)(?=[^&gt;]*&gt;&lt;/\1&gt;)</string>
-				
+
 				<key>beginCaptures</key>
 				<dict>
 					<key>1</key>
@@ -993,10 +993,10 @@
 				</array>
 			</dict>
 		</dict>
-		
+
 		<key>scopeName</key>
 		<string>text.html.cfm</string>
-		
+
 		<key>uuid</key>
 		<string>ZD34E6DA-6B1C-11D9-8CC2-000D93589EDF</string>
 	</dict>

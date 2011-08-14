@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= debug(${1:@}${2:variable}) %>]]></content>
+    <tabTrigger>du</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Output</description>
+</snippet>

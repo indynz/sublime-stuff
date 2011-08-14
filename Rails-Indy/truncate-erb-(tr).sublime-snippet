@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= truncate(${1:variable}${2:, :length => ${3:80}}) %>]]></content>
+    <tabTrigger>tr</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Truncate with output</description>
+</snippet>

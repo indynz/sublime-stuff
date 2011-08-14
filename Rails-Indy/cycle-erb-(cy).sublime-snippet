@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= cycle('${1:list_line_odd}', '${2:list_line_even}') %>]]></content>
+    <tabTrigger>cy</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>Cycle with output</description>
+</snippet>
