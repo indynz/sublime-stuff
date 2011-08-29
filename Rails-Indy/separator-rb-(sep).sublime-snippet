@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[#----------------------------------------------------------------#]]></content>
+    <tabTrigger>sep</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>Separator</description>
+</snippet>

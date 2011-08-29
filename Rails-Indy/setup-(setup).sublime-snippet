@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[setup do
+	$0
+end]]></content>
+    <tabTrigger>setup</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>test - setup</description>
+</snippet>

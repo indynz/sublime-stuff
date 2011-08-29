@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[<% @${1:objects}.each do |${2:object}| %>
-  $3
+    <content><![CDATA[<% @${1:variable}.each do |${2:name}| %>
+  $0
 <% end %>
 ]]></content>
     <tabTrigger>it</tabTrigger>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[test "${1:something interesting}" do
+	${0:flunk "test not implemented"}
+end]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>test</description>
+</snippet>

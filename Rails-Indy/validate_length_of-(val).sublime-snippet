@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[validates_length_of :${1:variable}${2:, :minimum => ${3}}${4:, :maximum => ${5}}${6:, :is => ${7}}${8:, :within => ${9:1..5}}${10:, :message => "${11:message}"}]]></content>
+    <tabTrigger>vlo</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>validate length of</description>
+</snippet>
