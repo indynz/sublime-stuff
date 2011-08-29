@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[teardown do
+	$0
+end]]></content>
+    <tabTrigger>tear</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>test - teardown</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[validates :${1:variable}, :format => {
+  :with     => Regexp.new("${2:regex}"),
+  :on       => :${3:create},
+  :message  => "${4:must be unique}"
+}]]></content>
+    <tabTrigger>val</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>validates with regex</description>
+</snippet>

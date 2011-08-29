@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;cfdump var="#$1#"&gt;$0
-&lt;cfabort&gt;</string>
+	<string>&lt;cfset debug("${1:expression}")&gt;</string>
 	<key>name</key>
-	<string>cfdump-cfabort</string>
+	<string>RocketUnit - debug</string>
 	<key>scope</key>
 	<string>text.html.cfm</string>
 	<key>tabTrigger</key>
-	<string>dua</string>
+	<string>deb</string>
 	<key>uuid</key>
-	<string>4E2938DC-46BD-439C-96D7-7154FBAFDED7</string>
+	<string>FCCCC398-B777-4EF3-9691-A85FA3B060F7</string>
 </dict>
 </plist>

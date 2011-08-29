@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:variable}.each do |${2:name}|
+  $0
+end]]></content>
+    <tabTrigger>it</tabTrigger>
+    <scope>source.ruby.rails</scope>
+    <description>.each loop (in rb)</description>
+</snippet>
