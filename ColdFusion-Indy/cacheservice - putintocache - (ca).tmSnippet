@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string><![CDATA[putIntoCache(context="${1:name}", scope="${2:name}", package="${3:name}", key="${4:name}")]]></string>
+	<key>name</key>
+	<string>CacheService - putIntoCache</string>
+	<key>scope</key>
+	<string>text.html.cfm,text.html.cfc</string>
+	<key>tabTrigger</key>
+	<string>ca</string>
+	<key>uuid</key>
+	<string>ZA29425B-6EB8-4A3D-AE5E-56D076555C01</string>
+</dict>
+</plist>
