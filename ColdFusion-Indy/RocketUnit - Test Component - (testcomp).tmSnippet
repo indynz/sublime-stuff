@@ -53,7 +53,7 @@
 
 </cfcomponent>]]></string>
 	<key>name</key>
-	<string>RocketUnit - Test Component</string>
+	<string>CFWheels - Test Component</string>
 	<key>scope</key>
 	<string>text.html.cfm</string>
 	<key>tabTrigger</key>
