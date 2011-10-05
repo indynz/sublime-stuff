@@ -9,7 +9,7 @@
 
 	<cffunction name="test_01_init" access="public" returnType="void">
 		<cfset assert("isObject(o${2:component})")>
-		<cfset assert("getMetaData(o${2:component}).fullname eq '${3:component_path}'")>
+		<cfset assert("getMetaData(o${2:component}).fullname eq 'controllers.${3:name}'")>
 	</cffunction>
 
 	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
@@ -20,27 +20,9 @@
 
 	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
 
-	<cffunction name="test_03_unnamed" access="public" returnType="void">
-		<cfset fail("Not implemented")>
-	</cffunction>
-
-	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
-
-	<cffunction name="test_04_unnamed" access="public" returnType="void">
-		<cfset fail("Not implemented")>
-	</cffunction>
-
-	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
-
-	<cffunction name="test_05_unnamed" access="public" returnType="void">
-		<cfset fail("Not implemented")>
-	</cffunction>
-
-	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
-
 	<!--- setup and teardown --->
 	<cffunction name="setUp" returntype="void" access="public">
-		<cfset o${2:${1:component}} = createObject("component","${3:component_path}").init(${4:arguments})>
+		<cfset o${2:${1:component}} = controller("${3:name}")>
 	</cffunction>
 
 	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
@@ -53,12 +35,12 @@
 
 </cfcomponent>]]></string>
 	<key>name</key>
-	<string>RocketUnit - Test Component</string>
+	<string>CFWheels - Controller Test Component</string>
 	<key>scope</key>
 	<string>text.html.cfm</string>
 	<key>tabTrigger</key>
 	<string>testcomp</string>
 	<key>uuid</key>
-	<string>BA19425B-6EB8-4A3D-AE5E-56D076555C01</string>
+	<string>BA39425B-6EB8-4A3D-AE5E-56D076555C01</string>
 </dict>
 </plist>

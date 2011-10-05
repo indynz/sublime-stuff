@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string><![CDATA[<cfcomponent extends="${1:Controller}">
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="init">
+		$2
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	fun$0
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>
+]]></string>
+	<key>name</key>
+	<string>CFWheels - Controller</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>comp</string>
+	<key>uuid</key>
+	<string>294951D6-E1E5-4A05-A3D3-1943FC50AB1A</string>
+</dict>
+</plist>
