@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>cfscript - dump</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>source.js.embedded.html</string>
 	<key>tabTrigger</key>
 	<string>cfsd</string>
 	<key>uuid</key>

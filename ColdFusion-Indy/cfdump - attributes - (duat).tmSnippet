@@ -2,7 +2,7 @@
 <plist version="1.0">
    <dict>
       <key>content</key>
-      <string><![CDATA[<cfdump var="#request.attributes#">${2:ab}$0]]></string>
+      <string><![CDATA[<cfdump eval="request.attributes">${2:ab}$0]]></string>
       <key>name</key>
       <string>cfdump request.attributes</string>
       <key>scope</key>

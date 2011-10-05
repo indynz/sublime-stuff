@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;cfdump var="#$1#"&gt;$0
+	<string>&lt;cfdump eval="$1"&gt;$0
 &lt;cfabort&gt;</string>
 	<key>name</key>
 	<string>cfdump-cfabort</string>
