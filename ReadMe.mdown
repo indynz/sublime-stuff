@@ -1,16 +1,19 @@
-Installation
-============
+# Introduction
 
-These snippets can be used for ColdFusion coding in Sublime Text 2.
+This package contains both Syntax Highlighting rules for ColdFusion (The "ColdFusion" folder), and a collection of Snippets (The "ColdFusion-Indy" folder) for quickly inserting CFML code.
 
-These a bunch of ColdFusion snippets that I've taken from the TextMate bundle. These live in the ColdFusion folder.
+The syntax highlighting is mostly a port from [the cfTextMate TextMate bundle](https://github.com/andyj/CFTextMate).
 
-The snippets in the ColdFuion-Indy folder are the ones that I use myself. Feel free to use if they are of us. Else, just get rid of the folder.
+The snippets in the ColdFuion-Indy folder are the ones that I use myself. Feel free to use them if they are useful to you. Otherwise you can ignore or delete the folder.
 
-Also I've included a Textmate color scheme that I like -- Merbivore Soft. I've tweaked it to make it work much nicer with ColdFusion code.
+I've also included a Textmate color scheme that I like: Merbivore Soft. I've tweaked it to make it work much nicer with ColdFusion code.
 
-* Copy the "ColdFusion" folder into <code>~/Library/Application Support/Sublime Text 2</code>
-* If you want to use the color scheme that I use (a variation of Merbivore Soft for TextMate), copy the file <code>Color Scheme - Default/Indy Merbivore Soft.tmTheme</code> into <code>~/Library/Application Support/Sublime Text 2/Color Scheme - Default</code> folder.
-* Copy the "ColdFusion-Indy" folder into <code>~/Library/Application Support/Sublime Text 2</code> -- these are the snippets that I find useful myself. You don't have to copy this across for ColdFusion bundle to work on Sublime Text.
+## Installing on Mac:
+* Move/Copy the "ColdFusion" folder into `~/Library/Application Support/Sublime Text 2/Packages/` folder
+* Create a symlink from the `Installed Packages` folder to the physical copy in the Packages folder. This enables it in Sublime.
+* If you want to use my variation of the "Merbivore Soft" color scheme from TextMate, copy the file `Color Scheme - Default/Indy Merbivore Soft.tmTheme` into the folder `~/Library/Application Support/Sublime Text 2/Color Scheme - Default`.
+* If you want to use my snippets, Move/Copy the "ColdFusion-Indy" folder into `~/Library/Application Support/Sublime Text 2/Packages/` and Symlink it into the `Installed Packages` folder. These are not required to get ColdFusion syntax highlighting.
+
+## Installing on Windows:
 
 Note: I've tested this only on Mac OSX. Not sure how it works on Windows/Linux.
