@@ -18,3 +18,4 @@ I've also included a Textmate color scheme that I like: Merbivore Soft. I've twe
 
 Note: The above paths are for OS X. To find the path for Sublime Text 2's extension folder in other operating systems, open Sublime Text 2 and click Preferences -> "Browse Packages..."
 
+* Move/Copy the "ColdFusion" foldr into C:\Users\[your username]\AppData\Roaming\Sublime Text\Packages folder
