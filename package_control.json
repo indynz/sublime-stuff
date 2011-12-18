@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.1",
+	"packages": [
+		{
+			"name": "ColdFusion",
+			"description": "ColdFusion snippets for Sublime Text 2",
+			"author": "indynagpal",
+			"homepage": "https://github.com/indynagpal/coldfusion-sublime-text-2",
+			"last_modified": "2011-10-24 12:00:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "1.0.0",
+						"url": "https://github.com/indynagpal/coldfusion-sublime-text-2/raw/master/ColdFusion.sublime-package"
+					}
+				]
+			}
+		}
+	]
+}
