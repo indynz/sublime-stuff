@@ -2,7 +2,7 @@
 <plist version="1.0">
    <dict>
       <key>content</key>
-      <string>&lt;cfdump ${1:${2:var="$3" }${4:expand="$5" }${6:label="$7" }${8:abort="$9"}} /&gt;$0</string>
+      <string>&lt;cfdump ${1:${2:var="$3" }${4:expand="$5" }${6:label="$7" }${8:abort="$9" }${10:output="${11:browser}"}} /&gt;$0</string>
       <key>name</key>
       <string>cfdump</string>
       <key>scope</key>
