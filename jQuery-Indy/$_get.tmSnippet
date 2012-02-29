@@ -3,17 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$.get('${1:/test/ajax-test.xml}'${2/(.+)/(?1:, function\(xml\){
- :)/}${2:alert( $("title",xml).text() )//optional stuff to do after get}${2/(.+)/(?1:;
-}:)/});
-$0</string>
+	<string><![CDATA[
+// Assign handlers immediately after making the request,
+  // and remember the jqxhr object for this request
+  var jqxhr = $.get("example.php", function() {
+    alert("success");
+  })
+  .success(function() { alert("second success"); })
+  .error(function() { alert("error"); })
+  .complete(function() { alert("complete"); });
+
+  // perform other work here ...
+
+  // Set another completion function for the request above
+  jqxhr.complete(function(){ alert("second complete"); });
+]]></string>
 	<key>name</key>
 	<string>$.get</string>
 	<key>scope</key>
 	<string>source.js,source.js.jquery</string>
 	<key>tabTrigger</key>
-	<string>$.get</string>
+	<string>get</string>
 	<key>uuid</key>
-	<string>E05CC813-D20E-4F7B-AA32-AC555F47BA1F</string>
+	<string>D05CC813-D20E-4F7B-AA32-AC555F47BA1F</string>
 </dict>
 </plist>
