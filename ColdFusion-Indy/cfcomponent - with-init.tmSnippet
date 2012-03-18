@@ -6,11 +6,11 @@
 	<string>&lt;cfcomponent displayName="$1" hint="$2"${3: extends="$4"}&gt;
 
 	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
-		
+
 	&lt;cffunction name="init" access="public" output="no" returnType="any" hint="I return an instance of myself"&gt;
 		&lt;cfreturn this&gt;
 	&lt;/cffunction&gt;
-	
+
 	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
 
 	fun$0
@@ -22,7 +22,7 @@
 	<key>name</key>
 	<string>cfcomponent - with init</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>comp</string>
 	<key>uuid</key>

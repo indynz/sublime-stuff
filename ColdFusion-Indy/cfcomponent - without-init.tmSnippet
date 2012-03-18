@@ -6,7 +6,7 @@
 	<string>&lt;cfcomponent displayName="$1" hint="$2"${3: extends="$4"}&gt;
 
 	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
-		
+
 	fun$0
 
 	&lt;!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ---&gt;
@@ -16,7 +16,7 @@
 	<key>name</key>
 	<string>cfcomponent - without init</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>comp</string>
 	<key>uuid</key>
