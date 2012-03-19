@@ -22,7 +22,7 @@
 	<key>name</key>
 	<string>CFWheels - Model</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>comp</string>
 	<key>uuid</key>

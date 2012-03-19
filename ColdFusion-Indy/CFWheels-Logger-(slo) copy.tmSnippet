@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>cfset - logger</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>slo</string>
 	<key>uuid</key>
