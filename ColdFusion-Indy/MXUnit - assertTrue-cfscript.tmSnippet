@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>MXUnit - assertTrue - cfscript</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>ast</string>
 	<key>uuid</key>

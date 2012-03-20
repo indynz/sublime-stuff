@@ -16,16 +16,16 @@
  //Note you can add more than one method at a time as a list
  //testSuite.add("mxunit.samples.MyOtherComponentTest","aTestFunctionThatDoesNotBeginWithTest,anotherTestFunctionThatDoesNotBeginWithTest");
 
-results = testSuite.run();  
+results = testSuite.run();
 
-//Now print the results. Simple!  
-writeOutput(results.getResultsOutput('#url.resultFormat#')); 
+//Now print the results. Simple!
+writeOutput(results.getResultsOutput('#url.resultFormat#'));
 &lt;/cfscript&gt;
 </string>
 	<key>name</key>
 	<string>MXUnit - Test Runner</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>testrunner</string>
 	<key>uuid</key>

@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>MXUnit - Test Function</string>
 	<key>scope</key>
-	<string>text.html.cfm</string>
+	<string>text.html.cfm,source.cfscript.cfc</string>
 	<key>tabTrigger</key>
 	<string>mtest</string>
 	<key>uuid</key>
