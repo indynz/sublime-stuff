@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[request.translator.get("$1")]]></content>
+	<tabTrigger>rtg</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>request.translator.get</description>
+</snippet>
+

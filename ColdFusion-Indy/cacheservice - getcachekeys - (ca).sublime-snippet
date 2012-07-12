@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[getCacheKeys(${1:context="${2:name}", scope="${3:name}", package="${4:name}", key="${5:name}"})]]></content>
+	<tabTrigger>ca</tabTrigger>
+	<scope>text.html.cfm,text.html.cfc</scope>
+	<description>CacheService - getCacheKeys</description>
+</snippet>
+

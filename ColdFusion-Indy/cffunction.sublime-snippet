@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cffunction name="$1" returnType="$2" access="${3:public}" output="${4:false}" hint="$5">
+	$0
+</cffunction>]]></content>
+	<tabTrigger>fun</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cffunction</description>
+</snippet>
+

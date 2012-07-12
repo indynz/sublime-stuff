@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[<cfparam name="url.resultFormat" default="extjs">
+<!--- other options are: options are: 'html', 'extjs', 'xml', 'junitxml', 'query', 'array' --->
+
+<cfscript>
+ testSuite = createObject("component","mxunit.framework.TestSuite").TestSuite();
+
+ //Add all runnable methods in this component -- those starting with the word 'test'
+ testSuite.addAll("$1");
+
+ //add explicit test cased (don't start with 'test').
+ //Note you can add more than one method at a time as a list
+ //testSuite.add("mxunit.samples.MyOtherComponentTest","aTestFunctionThatDoesNotBeginWithTest,anotherTestFunctionThatDoesNotBeginWithTest");
+
+results = testSuite.run();
+
+//Now print the results. Simple!
+writeOutput(results.getResultsOutput('#url.resultFormat#'));
+</cfscript>
+]]></content>
+	<tabTrigger>testrunner</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>MXUnit - Test Runner</description>
+</snippet>
+

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var o${1:variable_name} = createObject("component","${2:component_path}")${3:${4:.init()}}>
+$0]]></content>
+	<tabTrigger>varco</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - createObject</description>
+</snippet>
+

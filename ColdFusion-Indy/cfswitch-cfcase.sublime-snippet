@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[<cfswitch expression="#${1:expression}#">
+	<cfcase value="${2:value}">
+		${0}
+	</cfcase>
+	<cfdefaultcase>
+		
+	</cfdefaultcase>
+</cfswitch>]]></content>
+	<tabTrigger>cfswitch</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfswitch with cfcase</description>
+</snippet>
+

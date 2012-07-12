@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfdump eval="arguments">${2:ab}$0]]></content>
+	<tabTrigger>duar</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfdump arguments</description>
+</snippet>
+

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[assertIsStruct($1);]]></content>
+	<tabTrigger>asst</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>MXUnit - assertIsStruct - cfscript</description>
+</snippet>
+

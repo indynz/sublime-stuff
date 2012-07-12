@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[sessionCache("${1:key}"${2:,${3:value}})]]></content>
+	<tabTrigger>sc</tabTrigger>
+	<scope>text.html.cfm,text.html.cfc</scope>
+	<description>SessionCache - sessionCache</description>
+</snippet>
+

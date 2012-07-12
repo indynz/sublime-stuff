@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:variable_name} = application.shado_obj_factory.get("${2:component_path}")${3:.init()};]]></content>
+	<tabTrigger>sfac</tabTrigger>
+	<scope>text.html.cfm,source.js.embedded.html,source.cfscript</scope>
+	<description>cfscript - shado_obj_factory</description>
+</snippet>
+

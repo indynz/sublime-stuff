@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var s${1:variable_name} = "$2">
+]]></content>
+	<tabTrigger>vars</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - string</description>
+</snippet>
+

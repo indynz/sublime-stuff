@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<cfcomponent extends="${1:Model}">
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="init">
+		$2
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	fun$0
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>
+]]></content>
+	<tabTrigger>comp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>CFWheels - Model</description>
+</snippet>
+

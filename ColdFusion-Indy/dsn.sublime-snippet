@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[#request.siteContext.dsn#]]></content>
+	<tabTrigger>dsn</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>dsn</description>
+</snippet>
+

@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[<cfcomponent displayName="Test${1:component}" extends="tests.Test">
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->=
+
+	<cffunction name="test_1_${2:testname}" access="public" returnType="void">
+		$0
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<!--- setup and teardown --->
+	<cffunction name="setUp" returntype="void" access="public">
+
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="tearDown" returntype="void" access="public">
+		<!--- Any code needed to return your environment to normal goes here --->
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>]]></content>
+	<tabTrigger>rcomp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>CFWheels - Test Component</description>
+</snippet>
+

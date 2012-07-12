@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfdump eval="$1" ${2:label="$1"} />$0]]></content>
+	<tabTrigger>dula</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfdump with label</description>
+</snippet>
+

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfparam name="$0">]]></content>
+	<tabTrigger>cfparam</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfparam - name only</description>
+</snippet>
+

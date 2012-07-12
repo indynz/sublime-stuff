@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[arguments]]></content>
+	<tabTrigger>ar</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>arguments scope</description>
+</snippet>
+

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[variables]]></content>
+	<tabTrigger>vr</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>variables</description>
+</snippet>
+

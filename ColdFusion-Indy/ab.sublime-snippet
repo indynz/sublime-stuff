@@ -1,0 +1,24 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;cfabort&gt;</string>
+	<key>name</key>
+	<string>cfabort</string>
+	<key>scope</key>
+	<string>text.html.cfm</string>
+	<key>tabTrigger</key>
+	<string>ab</string>
+	<key>uuid</key>
+	<string>40B257DC-B464-4026-8546-F70D84B088C5</string>
+</dict>
+</plist>
+-->
+<snippet>
+	<content><![CDATA[<cfabort>]]></content>
+	<tabTrigger>ab</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>Insert cfabort</description>
+</snippet>

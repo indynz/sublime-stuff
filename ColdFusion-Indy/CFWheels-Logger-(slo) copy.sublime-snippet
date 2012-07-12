@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfset logger(text="$1"${2:${3:, type="${4:${5:Information}${6:|Warning}${7:|Error}${8:|Fatal}}"}${9:, logFile="${10:filename}"}${11:, processID="${12:#createUUID()#}"}})>$0]]></content>
+	<tabTrigger>slo</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>cfset - logger</description>
+</snippet>
+

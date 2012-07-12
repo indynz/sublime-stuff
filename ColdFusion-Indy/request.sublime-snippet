@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[request]]></content>
+	<tabTrigger>rq</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>request</description>
+</snippet>
+

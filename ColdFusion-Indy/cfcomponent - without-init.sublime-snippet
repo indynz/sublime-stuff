@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[<cfcomponent displayName="$1" hint="$2"${3: extends="$4"}>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	fun$0
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>
+]]></content>
+	<tabTrigger>comp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>cfcomponent - without init</description>
+</snippet>
+

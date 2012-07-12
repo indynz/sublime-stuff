@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var o${1:variable_name} = application.shado_obj_factory.get("${2:component_path}")${3:${4:.init()}}>
+$0]]></content>
+	<tabTrigger>varfac</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - shado_obj_factory</description>
+</snippet>
+

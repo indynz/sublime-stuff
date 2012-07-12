@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<cfquery name="${1:qReturn}" dbtype="query">
+	SELECT	*
+	FROM	$2
+</cfquery>
+]]></content>
+	<tabTrigger>qoq</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>Query of Queries</description>
+</snippet>
+

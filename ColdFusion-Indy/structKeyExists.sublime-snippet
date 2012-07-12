@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[structKeyExists(${1:struct_name}, "${2:key_name}")]]></content>
+	<tabTrigger>ske</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>structKeyExists</description>
+</snippet>
+

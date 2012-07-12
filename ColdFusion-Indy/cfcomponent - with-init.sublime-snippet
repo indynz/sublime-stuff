@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<cfcomponent displayName="$1" hint="$2"${3: extends="$4"}>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="init" access="public" output="no" returnType="any" hint="I return an instance of myself">
+		<cfreturn this>
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	fun$0
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>
+]]></content>
+	<tabTrigger>comp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>cfcomponent - with init</description>
+</snippet>
+

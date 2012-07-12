@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[application.shado_obj_factory.get("${1:component_path}")$0]]></content>
+	<tabTrigger>fac</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>shado_obj_factory</description>
+</snippet>
+

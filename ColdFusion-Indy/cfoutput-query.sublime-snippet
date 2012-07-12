@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfoutput query="$1">
+	$0
+</cfoutput>]]></content>
+	<tabTrigger>cfoutput</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfoutput - query</description>
+</snippet>
+

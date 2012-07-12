@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfset ${1:variable_name} = application.shado_obj_factory.get("${2:component_path}")>]]></content>
+	<tabTrigger>setfac</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfset - shado_obj_factory</description>
+</snippet>
+

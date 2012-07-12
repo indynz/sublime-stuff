@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfset ${1:variable_name} = createObject("component","${2:component_path}")${3:.init()}>]]></content>
+	<tabTrigger>setco</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfset - createObject</description>
+</snippet>
+

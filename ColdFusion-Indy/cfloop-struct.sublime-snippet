@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfloop collection="#${1:}#" item="${3:i}">
+	$0
+</cfloop>]]></content>
+	<tabTrigger>cfloop</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfloop - struct</description>
+</snippet>
+

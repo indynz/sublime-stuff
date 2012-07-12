@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var b${1:variable_name} = false>
+]]></content>
+	<tabTrigger>varb</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - boolean</description>
+</snippet>
+

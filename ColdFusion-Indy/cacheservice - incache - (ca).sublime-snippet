@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[inCache(context="${1:name}", scope="${2:name}", package="${3:name}", key="${4:name}")]]></content>
+	<tabTrigger>ca</tabTrigger>
+	<scope>text.html.cfm,text.html.cfc</scope>
+	<description>CacheService - InCache</description>
+</snippet>
+

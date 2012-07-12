@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[request.siteContext]]></content>
+	<tabTrigger>rs</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>request.siteContext</description>
+</snippet>
+

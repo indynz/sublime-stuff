@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[len(trim($1))]]></content>
+	<tabTrigger>lt</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>len(trim())</description>
+</snippet>
+

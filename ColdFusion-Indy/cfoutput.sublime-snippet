@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfoutput>
+	$1
+</cfoutput>]]></content>
+	<tabTrigger>ou</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfoutput</description>
+</snippet>
+

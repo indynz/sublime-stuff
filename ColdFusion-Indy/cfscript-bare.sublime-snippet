@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfscript>
+$0
+</cfscript>]]></content>
+	<tabTrigger>cfscript</tabTrigger>
+	<scope>text.html.cfm,source.js.embedded.html,source.cfscript</scope>
+	<description>cfscript - simple</description>
+</snippet>
+

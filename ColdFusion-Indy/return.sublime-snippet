@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<cfreturn $1>$0]]></content>
+	<tabTrigger>ret</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>return</description>
+</snippet>
+

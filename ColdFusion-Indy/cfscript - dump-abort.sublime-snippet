@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[dump($1);abort;]]></content>
+	<tabTrigger>sduab</tabTrigger>
+	<scope>text.html.cfm,source.js.embedded.html,source.cfscript</scope>
+	<description>cfscript - dump</description>
+</snippet>
+

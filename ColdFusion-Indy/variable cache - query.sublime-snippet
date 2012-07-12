@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[<cfset stCache 		= structNew()>
+<cfset stCache.key 	= "$1">
+<cfset stCache.scope 	= "$2">
+
+<cfif application.shado.cacheService.inCache(key=stCache.key,scope=stCache.scope)>
+	<cfset qReturn = application.shado.cacheService.getFromCache(key=stCache.key,scope=stCache.scope)>
+<cfelse>
+	${3:<cfset qReturn	= ${4}>}
+	<cfset application.shado.cacheService.putIntoCache(key=stCache.key,scope=stCache.scope, data=qReturn)>
+</cfif>
+]]></content>
+	<tabTrigger>varcachequery</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>variable cache - query</description>
+</snippet>
+

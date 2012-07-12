@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<cfset var q${1:variable_name} = queryNew("$2")>
+]]></content>
+	<tabTrigger>varq</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>var - query</description>
+</snippet>
+

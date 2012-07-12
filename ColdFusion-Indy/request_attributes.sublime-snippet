@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[request.attributes]]></content>
+	<tabTrigger>attr</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>request.attributes</description>
+</snippet>
+

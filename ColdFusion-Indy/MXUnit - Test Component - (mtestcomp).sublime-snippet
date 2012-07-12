@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[<cfcomponent displayName="Test$1" extends="mxunit.framework.TestCase">
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<!--- Begin specific tests --->
+	<cffunction name="testinit" access="public" returnType="void">
+		<cfset assertEquals("$4",getMetaData(variables.$2).displayname,"The returned component does not match what was expected.")>
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	fun$0
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<!--- setup and teardown --->
+	<cffunction name="setUp" returntype="void" access="public">
+		<cfset variables.${2:oTest} = createObject("component","$3").init()>
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="tearDown" returntype="void" access="public">
+		<!--- Any code needed to return your environment to normal goes here --->
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>
+]]></content>
+	<tabTrigger>mtestcomp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>MXUnit - Test Component</description>
+</snippet>
+

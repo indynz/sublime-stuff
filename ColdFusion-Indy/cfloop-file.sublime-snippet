@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfloop file="#${1:sFilePath}#" index="${2:line}">
+	$0
+</cfloop>]]></content>
+	<tabTrigger>cfloop</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfloop - file</description>
+</snippet>
+

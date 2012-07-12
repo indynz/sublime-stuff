@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[createObject("component","$0").init()]]></content>
+	<tabTrigger>co</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>createObject - component with init</description>
+</snippet>
+

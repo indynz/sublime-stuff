@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[request.userContext]]></content>
+	<tabTrigger>ru</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>request.userContext</description>
+</snippet>
+
