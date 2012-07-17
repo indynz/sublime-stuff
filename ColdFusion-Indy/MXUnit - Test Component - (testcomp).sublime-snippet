@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[<cfcomponent displayName="Test${1:component}" extends="mxunit.framework.TestCase">
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->=
+
+	<cffunction name="test_01_init" access="public" returnType="void">
+		<cfset assertEquals("Languages",getMetaData(o${2:component}).displayname,"The returned component does not match what was expected.")>
+		<cfset assertEquals("${3:component_path}",getMetaData(o${2:component}).fullname)>
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<!--- setup and teardown --->
+	<cffunction name="setUp" returntype="void" access="public">
+		<cfset o${2:${1:component}} = createObject("component","${3:component_path}").init(${4:arguments})>
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+	<cffunction name="tearDown" returntype="void" access="public">
+		<!--- Any code needed to return your environment to normal goes here --->
+	</cffunction>
+
+	<!--- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: --->
+
+</cfcomponent>]]></content>
+	<tabTrigger>testcomp</tabTrigger>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>MXUnit - Test Component</description>
+</snippet>
+

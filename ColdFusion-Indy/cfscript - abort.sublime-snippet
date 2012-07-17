@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[abort;]]></content>
-	<tabTrigger>sab</tabTrigger>
-	<scope>text.html.cfm,source.js.embedded.html,source.cfscript</scope>
+	<tabTrigger>ab</tabTrigger>
+	<scope>source.cfscript</scope>
 	<description>cfscript - abort</description>
 </snippet>
 

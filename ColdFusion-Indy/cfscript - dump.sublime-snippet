@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[dump($1);]]></content>
-	<tabTrigger>sdu</tabTrigger>
+	<tabTrigger>du</tabTrigger>
 	<scope>source.js.embedded.html,source.cfscript</scope>
 	<description>cfscript - dump</description>
 </snippet>
