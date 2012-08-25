@@ -1,6 +1,5 @@
 <snippet>
-	<content><![CDATA[<cfdump eval="$1">$0
-<cfabort>]]></content>
+	<content><![CDATA[<cfdump eval="$1"><cfabort>$0]]></content>
 	<tabTrigger>dua</tabTrigger>
 	<scope>text.html.cfm</scope>
 	<description>cfdump-cfabort</description>

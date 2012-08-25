@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[queryparam cfsqltype="CF_SQL_VARCHAR" value="$1";$0]]></content>
+	<tabTrigger>queryparam</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>varchar</description>
+</snippet>
+

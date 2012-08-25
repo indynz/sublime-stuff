@@ -2,6 +2,6 @@
 	<content><![CDATA[<cffile action="delete" file="$2">$0]]></content>
 	<tabTrigger>cffile</tabTrigger>
 	<scope>text.html.cfm</scope>
-	<description>cffile - delete</description>
+	<description>cffile (delete)</description>
 </snippet>
 

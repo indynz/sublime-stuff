@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[${1:public} ${2:return_type} function ${3:function_name}( ${14:${15:argument_type} ${16:argument_name}${17: = "${18:default value}"}} ) hint="${4:some hint}" {
+}
+]]></content>
+	<tabTrigger>fun</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - function</description>
+</snippet>

@@ -4,6 +4,6 @@
 </cfloop>]]></content>
 	<tabTrigger>cfloop</tabTrigger>
 	<scope>text.html.cfm</scope>
-	<description>cfloop - struct</description>
+	<description>cfloop (struct)</description>
 </snippet>
 

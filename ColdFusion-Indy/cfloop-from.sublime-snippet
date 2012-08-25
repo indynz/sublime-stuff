@@ -4,6 +4,6 @@
 </cfloop>]]></content>
 	<tabTrigger>cfloop</tabTrigger>
 	<scope>text.html.cfm</scope>
-	<description>cfloop - from</description>
+	<description>cfloop (from-to)</description>
 </snippet>
 

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[component{
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	fun$0
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+}
+]]></content>
+	<tabTrigger>comp</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - cfcomponent - bare</description>
+</snippet>
+

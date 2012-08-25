@@ -6,6 +6,6 @@
 ]]></content>
 	<tabTrigger>qoq</tabTrigger>
 	<scope>text.html.cfm</scope>
-	<description>Query of Queries</description>
+	<description>cfquery (queries)</description>
 </snippet>
 

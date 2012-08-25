@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[loop from="${1:1}" to="#arrayLen($2)#" index="${3:i}"{
+	$0
+}]]></content>
+	<tabTrigger>loop</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>loop (arraylen)</description>
+</snippet>
+

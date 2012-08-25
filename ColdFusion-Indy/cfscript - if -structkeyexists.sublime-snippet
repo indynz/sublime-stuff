@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<cfif structKeyExists(${1:struct_name}, "${2:key_name}")>
+	$0
+</cfif>]]></content>
+	<tabTrigger>cfif</tabTrigger>
+	<scope>text.html.cfm</scope>
+	<description>cfif - structKeyExists</description>
+</snippet>
+

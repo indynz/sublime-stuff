@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[o${1:Comp} = new ${2:component_name_or_path}();
+$0]]></content>
+	<tabTrigger>new</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - new</description>
+</snippet>
+

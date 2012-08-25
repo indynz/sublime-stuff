@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[/**
+*@hint "$2"
+*/
+component displayname="$1"${3: extends="$4"}{
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	public any function init() hint="I return and instance of myself" {
+
+		return this;
+
+	}
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	fun$0
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+}
+]]></content>
+	<tabTrigger>comp</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - cfcomponent (init)</description>
+</snippet>
+

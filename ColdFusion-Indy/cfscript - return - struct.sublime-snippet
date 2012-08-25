@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[return ${1:stReturn};$0]]></content>
+	<tabTrigger>retst</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - return (struct)</description>
+</snippet>
+

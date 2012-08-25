@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[loop collection="#$1#" item="${2:i}"{
+	$0
+}]]></content>
+	<tabTrigger>loop</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>loop (collection)</description>
+</snippet>
+

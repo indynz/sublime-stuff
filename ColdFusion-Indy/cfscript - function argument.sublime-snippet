@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[${4:${5:argument_type} ${6:argument_name}${7: = "${8:default value}"}}]]></content>
+	<tabTrigger>ar</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - argument</description>
+</snippet>

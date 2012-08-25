@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[dump($1);]]></content>
+	<content><![CDATA[dump($1)]]></content>
 	<tabTrigger>du</tabTrigger>
 	<scope>source.js.embedded.html,source.cfscript</scope>
-	<description>cfscript - dump</description>
+	<description>s - dump</description>
 </snippet>
 

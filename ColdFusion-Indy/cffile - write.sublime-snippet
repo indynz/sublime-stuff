@@ -2,6 +2,6 @@
 	<content><![CDATA[<cffile action="write" file="$2" output="#$3#" charset="UTF-8">$0]]></content>
 	<tabTrigger>cffile</tabTrigger>
 	<scope>text.html.cfm</scope>
-	<description>cffile - write</description>
+	<description>cffile (write)</description>
 </snippet>
 

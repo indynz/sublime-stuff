@@ -2,6 +2,6 @@
 	<content><![CDATA[abort;]]></content>
 	<tabTrigger>ab</tabTrigger>
 	<scope>source.cfscript</scope>
-	<description>cfscript - abort</description>
+	<description>s - abort</description>
 </snippet>
 

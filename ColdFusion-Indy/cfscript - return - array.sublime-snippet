@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[return ${1:aReturn};$0]]></content>
+	<tabTrigger>reta</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - return (array)</description>
+</snippet>
+

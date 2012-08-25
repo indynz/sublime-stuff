@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[query name="${1:qReturn}" dbtype="query"{
+	${10:echo("
+			Select		${13:*}
+			From		$14${15:
+			Where		$16}
+		")
+}}
+]]></content>
+	<tabTrigger>qoq</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>s - query (query)</description>
+</snippet>
+
