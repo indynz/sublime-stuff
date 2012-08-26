@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[if (${1:condition}){
+	$2
+}else if{
+	$3
+}else{
+	$4
+}$0]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>if-elseif-else</description>
+</snippet>
+

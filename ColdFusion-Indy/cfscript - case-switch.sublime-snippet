@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[switch(${1:condition}) {
+
+	case	"$2":
+		$3
+	break;
+
+	$0
+
+	default:
+
+}]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>switch-case</description>
+</snippet>
+

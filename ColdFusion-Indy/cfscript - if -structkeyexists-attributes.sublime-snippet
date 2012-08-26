@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[<cfif structKeyExists(request.attributes, "${1:key_name}")>
-	$0
-</cfif>]]></content>
-	<tabTrigger>cfif</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>cfif - structKeyExists-attributes</description>
+	<content><![CDATA[if (structKeyExists(request.attributes, "${1:key_name}")){>
+	$2
+}]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>structKeyExists-attributes</description>
 </snippet>
 

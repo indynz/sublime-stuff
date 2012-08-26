@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[case	"$1":
+	$2
+break;
+$0
+]]></content>
+	<tabTrigger>case</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>case</description>
+</snippet>
+
