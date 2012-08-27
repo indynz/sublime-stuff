@@ -1,0 +1,94 @@
+{
+    "scope": "meta.name.interpolated.hash - string, source.cfscript - source.sql - text.html.cfm - string - meta - comment, source.cfscript.embedded.cfml - string, source.sql",
+    "completions":
+    [
+        // functions
+        { "trigger": "arrayDelete\tfn. (cfscript)", "contents": "arrayDelete(${1:${2:array}, \"${3:substring}\"${4:, \"all\"}})"},
+        { "trigger": "arrayContains\tfn. (cfscript)", "contents": "arrayContains(${1:${2:array}, \"${3:substring}\"})"},
+        { "trigger": "arrayContainsNoCase\tfn. (cfscript)", "contents": "arrayContainsNoCase(${1:${2:array}, \"${3:substring}\"})"},
+        { "trigger": "arrayFind\tfn. (cfscript)", "contents": "arrayFind(${1:${2:array}, \"${3:value}\"})"},
+        { "trigger": "arrayFindNoCase\tfn. (cfscript)", "contents": "arrayFindNoCase(${1:${2:array}, \"${3:value}\"})"},
+        { "trigger": "arrayFirst\tfn. (cfscript)", "contents": "arrayFirst(${1:${2:array}})"},
+		{ "trigger": "arrayIndexExists\tfn. (cfscript)", "contents": "arrayIndexExists(${1:${2:array}, ${3:index}})"},
+		{ "trigger": "arrayIsDefined\tfn. (cfscript)", "contents": "arrayIsDefined(${1:${2:array}, ${3:index}})"},
+		{ "trigger": "arrayIsEmpty\tfn. (cfscript)", "contents": "arrayIsEmpty(${1:${2:array}})"},
+		{ "trigger": "arrayLast\tfn. (cfscript)", "contents": "arrayLast(${1:${2:array}})"},
+		{ "trigger": "arrayReverse\tfn. (cfscript)", "contents": "arrayReverse(${1:${2:array}})"},
+		{ "trigger": "arraySlice\tfn. (cfscript)", "contents": "arraySlice(${1:${2:array}, ${3:offset}${4:, ${5:length}}})"},
+		{ "trigger": "arraySwap\tfn. (cfscript)", "contents": "arraySwap(${1:${2:array}, ${3:position1}, ${4:position2}})"},
+		{ "trigger": "arrayToStruct\tfn. (cfscript)", "contents": "arrayToStruct(${1:${2:array}})"},
+
+		{ "trigger": "beat\tfn. (cfscript)", "contents": "beat(${1:${2:time}})"},
+		{ "trigger": "beat\tfn. now()", "contents": "beat(${1:now()})", "description": "beat now"},
+
+		{ "trigger": "compress\tfn. (cfscript)", "contents": "compress(${1:\"${2:format}\", \"${3:source_path}\", \"${4:target_path}\"${5:, ${6:includeBaseFolder}}${7:, \"${8:mode}\"}})"},
+		{ "trigger": "compress\tfn. zip", "contents": "compress(${1:\"zip\", \"${3:source_path}\", \"${3:target_path}.zip\"${5:, ${6:includeBaseFolder}}})"},
+		{ "trigger": "compress\tfn. bzip", "contents": "compress(${1:\"bzip\", \"${3:source_path}\", \"${4:target_path}.bzip\"${5:, ${6:includeBaseFolder}}})"},
+		{ "trigger": "compress\tfn. gzip", "contents": "compress(${1:\"gzip\", \"${3:source_path}\", \"${4:target_path}.gzip\"${5:, ${6:includeBaseFolder}}})"},
+		{ "trigger": "compress\tfn. tar", "contents": "compress(${1:\"tar\", \"${3:source_path}\", \"${4:target_path}.tar\"${5:, ${6:includeBaseFolder}}})"},
+		{ "trigger": "compress\tfn. tbz", "contents": "compress(${1:\"tbz\", \"${3:source_path}\", \"${4:target_path}.tbz\"${5:, ${6:includeBaseFolder}}})"},
+		{ "trigger": "compress\tfn. tgz", "contents": "compress(${1:\"tgz\", \"${3:source_path}\", \"${4:target_path}.tgz\"${5:, ${6:includeBaseFolder}}})"},
+
+        { "trigger": "contractPath\tfn. (cfscript)", "contents": "contractPath(${1:\"${2:absolute_path}\"${3:, ${4:add_placeholder?}}})"},
+
+        { "trigger": "createGUID\tfn. (cfscript)", "contents": "createGUID()"},
+        { "trigger": "createUniqueID\tfn. (cfscript)", "contents": "createUniqueID()"},
+
+        { "trigger": "directoryCreate\tfn. (cfscript)", "contents": "directoryCreate(${1:\"${2:absolute_path}\"${3:, \"${4:create_parent_directory?}\"}})"},
+        { "trigger": "directoryDelete\tfn. (cfscript)", "contents": "directoryDelete(${1:\"${2:absolute_path}\"${3:, \"${4:recurse?}\"}})"},
+        { "trigger": "directoryRename\tfn. (cfscript)", "contents": "directoryRename(${1:\"${2:absolute_old_path}\", \"${4:new_name}\"})"},
+        { "trigger": "directoryList\tfn. (cfscript)", "contents": "directoryList(${1:\"${2:absolute_path}\", \"${4:recurse?}\"${5:, \"${6:listinfo (name|path|query)}\"}${7:, \"${8:filter (string|udf)}\"}${9:, \"${10:sort (asc|dec)}\"}})"},
+
+        { "trigger": "echo\tfn. (cfscript)", "contents": "echo(\"${1:string}\")"},
+
+		{ "trigger": "extract\tfn. (cfscript)", "contents": "extract(${1:\"${2:format (bzip|gzip|tar|tbz|tgz|zip)}\", \"${3:source_path}\", \"${4:target_path}})"},
+
+		{ "trigger": "fileCopy\tfn. (cfscript)", "contents": "fileCopy(\"${1:source_path}\", \"${2:destination_path}\")"},
+		{ "trigger": "fileDelete\tfn. (cfscript)", "contents": "fileDelete(\"${1:absolute_path}\")"},
+		{ "trigger": "fileMove\tfn. (cfscript)", "contents": "fileMove(\"${1:source_path}\", \"${2:destination_path}\")"},
+		{ "trigger": "fileWrite\tfn. (cfscript)", "contents": "fileWrite(\"${1:absolute_path}\", \"${2:data}\", \"${2:UTF-8}\")"},
+		{ "trigger": "fileWriteLine\tfn. (cfscript)", "contents": "fileWriteLine(\"${1:absolute_path}\", \"${2:data}\")"},
+
+		{ "trigger": "htmlParse\tfn. (cfscript)", "contents": "htmlParse(\"${1:html}\", \"${2:case_sensitive?}\")"},
+
+		{ "trigger": "listCompact\tfn. (cfscript)", "contents": "listCompact(\"${1:list}\"${2:, \"${3:delimiters}\"})"},
+		{ "trigger": "listItemTrim\tfn. (cfscript)", "contents": "listItemTrim(\"${1:list}\"${2:, \"${3:delimiters}\"}${4:, \"${5:includeEmptyFields?}\"})"},
+		{ "trigger": "listValueCount\tfn. (cfscript)", "contents": "listValueCount(\"${1:list}\", \"${2:value}\"${3:, \"${4:delimiters}\"}${5:, \"${6:includeEmptyFields?}\"})"},
+		{ "trigger": "listValueCountNoCase\tfn. (cfscript)", "contents": "listValueCountNoCase(\"${1:list}\", \"${2:value}\"${3:, \"${4:delimiters}\"}${5:, \"${6:includeEmptyFields?}\"})"},
+
+        { "trigger": "metaphone\tfn. (cfscript)", "contents": "metaphone(\"${1:string}\")"},
+
+        { "trigger": "newLine\tfn. (cfscript)", "contents": "newLine()"},
+        { "trigger": "nullValue\tfn. (cfscript)", "contents": "nullValue()"},
+
+        { "trigger": "parameterExists\tfn. (cfscript)", "contents": "parameterExists(\"${1:parameter}\")"},
+
+        { "trigger": "queryColumnArray\tfn. (cfscript)", "contents": "queryColumnArray(${1:query})"},
+		{ "trigger": "queryColumnCount\tfn. (cfscript)", "contents": "queryColumnCount(${1:query})"},
+		{ "trigger": "queryColumnExists\tfn. (cfscript)", "contents": "queryColumnExists(${1:query}, \"${2:column_name}\")"},
+		{ "trigger": "queryDeleteColumn\tfn. (cfscript)", "contents": "queryDeleteColumn(${1:query}, \"${2:column_name}\")"},
+		{ "trigger": "queryDeleteRow\tfn. (cfscript)", "contents": "queryDeleteRow(${1:query}, ${2:row_number})"},
+		{ "trigger": "queryGetCell\tfn. (cfscript)", "contents": "queryGetCell(${1:query}, \"${2:column_name}\", ${3:row_number})"},
+		{ "trigger": "queryRecordCount\tfn. (cfscript)", "contents": "queryRecordCount(${1:query})"},
+		{ "trigger": "querySlice\tfn. (cfscript)", "contents": "querySlice(${1:${2:query}, ${3:offset}${4:, ${5:length}}})"},
+		{ "trigger": "querySort\tfn. (cfscript)", "contents": "querySort(${1:${2:query}, \"${3:column_name}\"${4:, \"${5:direction (asc|desc)}\"}})"},
+
+        { "trigger": "reMatch\tfn. (cfscript)", "contents": "reMatch(${1:${2:reg_expression}, \"${3:string}\"})"},
+        { "trigger": "reMatchNoCase\tfn. (cfscript)", "contents": "reMatchNoCase(${1:${2:reg_expression}, \"${3:string}\"})"},
+
+        { "trigger": "sizeOf\tfn. (cfscript)", "contents": "sizeOf(${1:object})"},
+        { "trigger": "sleep\tfn. (cfscript)", "contents": "sleep(${1:duration_in_milliseconds})"},
+        { "trigger": "soundex\tfn. (cfscript)", "contents": "soundex(\"${1:string}\")"},
+
+        { "trigger": "wrap\tfn. (cfscript)", "contents": "wrap(\"${1:string}\", ${2:number_of_characters}${3:, \"${4:strip?}\"})"},
+
+        { "trigger": "getXMLNodeType\tfn. (cfscript)", "contents": "getXMLNodeType(${1:node})"},
+
+        // tags
+        { "trigger": "flush\tta. (cfscript)", "contents": "flush ${1:interval}"},
+        { "trigger": "include\tta. (cfscript)", "contents": "include \"${1:path}\""},
+		{ "trigger": "location\tta. (cfscript)", "contents": "location(\"${1:url}\"${2:, \"${3:addToken?}\", ${4:statusCode (301,*302,303,305,307)}})"},
+
+
+    ]
+}
