@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[assertIsQuery($1);]]></content>
+	<content><![CDATA[assertIsQuery($1)]]></content>
 	<tabTrigger>asq</tabTrigger>
 	<scope>text.html.cfm,source.cfscript.cfc</scope>
 	<description>MXUnit - assertIsQuery - cfscript</description>

@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<cfcomponent displayName="Test$10" extends="mxunit.framework.TestCase">
+<cfscript>
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	function test_01_init(){
+		assertEquals("$40",getMetaData(variables.$20).displayname,"The returned component does not match what was expected.")
+	}
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	test$0
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	function setup(){
+		variables.${20:oTest} = createObject("component","$30").init()
+	}
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	function teardown(){
+
+	}
+
+	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+</cfscript>
+</cfcomponent>
+]]></content>
+	<tabTrigger>testcomp</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>MXUnit - Test Component</description>
+</snippet>
+

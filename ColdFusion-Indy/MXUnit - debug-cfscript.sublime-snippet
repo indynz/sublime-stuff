@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[debug(${1:VariableName});]]></content>
+	<content><![CDATA[debug(${1:VariableName})]]></content>
 	<tabTrigger>deb</tabTrigger>
 	<scope>text.html.cfm,source.cfscript.cfc</scope>
 	<description>MXUnit - debug - cfscript</description>

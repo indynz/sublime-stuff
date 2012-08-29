@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[assertEquals(${1:Expected}, ${2:Actual});]]></content>
+	<content><![CDATA[assertEquals(${1:Expected}, ${2:Actual})]]></content>
 	<tabTrigger>ase</tabTrigger>
 	<scope>text.html.cfm,source.cfscript.cfc</scope>
 	<description>MXUnit - assertEquals - cfscript</description>

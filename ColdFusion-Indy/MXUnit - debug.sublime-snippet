@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[<cfset debug(${1:VariableName})>]]></content>
-	<tabTrigger>deb</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>MXUnit - debug</description>
-</snippet>
-

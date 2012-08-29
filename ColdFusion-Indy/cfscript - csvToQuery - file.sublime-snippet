@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[${1:oCSV	= new shadomx.util.misc.csv.CSV()
+}sPath 	= ${10:"${20:absolute_path}"}
+qData 	= oCSV.CSVToQuery(file=sPath)
+]]></content>
+	<tabTrigger>csvToQuery</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>file</description>
+</snippet>
+

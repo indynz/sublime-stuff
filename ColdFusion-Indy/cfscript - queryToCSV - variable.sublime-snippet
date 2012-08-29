@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[${1:oCSV	= new shadomx.util.misc.csv.CSV()
+}sData 	= oCSV.queryToCSV(query=${10:variable_name}, fields="${20:#${10}.columnList#}", createHeaderRow="${30:false}")
+]]></content>
+	<tabTrigger>queryToCSV</tabTrigger>
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description></description>
+</snippet>
+

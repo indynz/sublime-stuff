@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[assertTrue(${1:Boolean Condition});]]></content>
+	<content><![CDATA[assertTrue(${1:Boolean Condition})]]></content>
 	<tabTrigger>ast</tabTrigger>
 	<scope>text.html.cfm,source.cfscript.cfc</scope>
 	<description>MXUnit - assertTrue - cfscript</description>

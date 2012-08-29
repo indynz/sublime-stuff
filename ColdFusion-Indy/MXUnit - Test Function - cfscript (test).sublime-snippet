@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[function test_${1:number}_${2:name}(){
+	${3:fail("Test not implemented")}
+}
+]]></content>
+	<tabTrigger>test</tabTrigger>
+<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>MXUnit - Test Function</description>
+</snippet>
+

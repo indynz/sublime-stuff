@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[<cfset assertEquals(${1:Expected}, ${2:Actual})>]]></content>
-	<tabTrigger>ase</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>MXUnit - assertEquals</description>
-</snippet>
-

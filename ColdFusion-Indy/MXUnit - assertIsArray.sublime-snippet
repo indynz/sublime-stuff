@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[<cfset assertIsArray($1)>]]></content>
-	<tabTrigger>asa</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>MXUnit - assertIsArray</description>
-</snippet>
-

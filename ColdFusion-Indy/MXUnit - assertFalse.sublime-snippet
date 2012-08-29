@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[<cfset assertFalse(${1:Boolean Condition})>]]></content>
-	<tabTrigger>asf</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>MXUnit - assertFalse</description>
-</snippet>
-

@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[<cfset assertIsQuery($1)>]]></content>
-	<tabTrigger>asq</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>MXUnit - assertIsQuery</description>
-</snippet>
-
