@@ -16,7 +16,7 @@
 </cfcomponent>
 ]]></content>
 	<tabTrigger>comp</tabTrigger>
-	<scope>text.html.cfm</scope>
-	<description>cfcomponent - with init</description>
+	<scope>text.html.cfm,source.cfscript.cfc</scope>
+	<description>cfcomponent (init)</description>
 </snippet>
 

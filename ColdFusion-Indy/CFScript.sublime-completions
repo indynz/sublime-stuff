@@ -87,8 +87,6 @@
         // tags
         { "trigger": "flush\tta. (cfscript)", "contents": "flush ${1:interval}"},
         { "trigger": "include\tta. (cfscript)", "contents": "include \"${1:path}\""},
-		{ "trigger": "location\tta. (cfscript)", "contents": "location(\"${1:url}\"${2:, \"${3:addToken?}\", ${4:statusCode (301,*302,303,305,307)}})"},
-
-
+		{ "trigger": "location\tta. (cfscript)", "contents": "location(\"${1:url}\"${2:, \"${3:addToken?}\", ${4:statusCode (301,*302,303,305,307)}})"}
     ]
 }
