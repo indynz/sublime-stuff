@@ -1,0 +1,12 @@
+<snippet>
+	<description>main()</description>
+    <content><![CDATA[int main(int argc, char const${TM_C_POINTER: *}argv[])
+{
+	@autoreleasepool {
+		${0:/* code */}
+	}
+	return 0;
+}]]></content>
+    <tabTrigger>main - autorelease</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

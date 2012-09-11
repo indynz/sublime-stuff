@@ -1,0 +1,38 @@
+{
+	"cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}"],
+	"working_dir": "${file_path}",
+	"selector": "source.objc, source.m",
+	"shell": "true",
+	"cmd": ["clang '${file}' -o '${file_path}/${file_base_name}.out' -arch x86_64 -mmacosx-version-min=10.8 -fobjc-arc && '${file_path}/${file_base_name}.out'"],
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"shell": true,
+			"cmd": ["clang '${file}' -o '${file_path}/${file_base_name}.out' -arch x86_64 -mmacosx-version-min=10.8 -fobjc-arc && '${file_path}/${file_base_name}.out'"]
+		}
+	]
+}
+
+/*
+XCODE Generated command sample
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-arch x86_64
+-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+-L/Users/indy/Development/ObjectiveC/iTunesPlaylistsAndTracks/build/Release
+-F/Users/indy/Development/ObjectiveC/iTunesPlaylistsAndTracks/build/Release
+-filelist /Users/indy/Development/ObjectiveC/iTunesPlaylistsAndTracks/build/iTunesPlaylistsAndTracks.build/Release/iTunesPlaylistsAndTracks.build/Objects-normal/x86_64/iTunesPlaylistsAndTracks.LinkFileList
+-mmacosx-version-min=10.8
+-fobjc-arc
+-fobjc-link-runtime
+-framework ScriptingBridge
+-framework Foundation
+-o /Users/indy/Development/ObjectiveC/iTunesPlaylistsAndTracks/build/Release/iTunesPlaylistsAndTracks
+==============================
+
+MINIMAL command that'll work
+
+clang untitled.m -arch x86_64 -mmacosx-version-min=10.8 -fobjc-arc -o untitled
+*/
