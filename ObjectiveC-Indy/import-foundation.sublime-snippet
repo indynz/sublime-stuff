@@ -1,0 +1,6 @@
+<snippet>
+	<description>#import foundation</description>
+    <content><![CDATA[#import <Foundation/Foundation.h>]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
