@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[http method="${1:POST}" url="${2:uri}"{
+	httpparam$0
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>http</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>fn. (cfscript)</description>
+</snippet>
