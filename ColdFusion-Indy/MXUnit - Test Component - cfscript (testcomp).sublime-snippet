@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<cfcomponent displayName="Test$10" extends="mxunit.framework.TestCase">
-<cfscript>
+component displayName="Test$10" extends="mxunit.framework.TestCase"{
 
 	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
@@ -26,9 +25,7 @@
 	}
 
 	/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-
-</cfscript>
-</cfcomponent>
+}
 ]]></content>
 	<tabTrigger>testcomp</tabTrigger>
 	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
