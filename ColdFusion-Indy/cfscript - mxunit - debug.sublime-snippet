@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[debug(${1:object})$0]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>deb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
+	<description>MXunit - Debug</description>
+</snippet>

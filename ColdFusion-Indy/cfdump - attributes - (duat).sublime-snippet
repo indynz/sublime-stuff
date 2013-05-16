@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<cfdump eval="request.attributes">${2:ab}$0]]></content>
+	<content><![CDATA[<cfdump var="#request.attributes#">${2:ab}$0]]></content>
 	<tabTrigger>duat</tabTrigger>
 	<scope>text.html.cfm</scope>
 	<description>cfdump request.attributes</description>

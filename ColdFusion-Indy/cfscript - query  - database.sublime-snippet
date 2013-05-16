@@ -1,11 +1,7 @@
 <snippet>
 	<content><![CDATA[query name="${1:qReturn}" datasource="${2:#request.siteContext.dsn#}"{
-	${10:echo("
-			Select		${13:*}
-			From		$14${15:
-			Where		$16}
-		")
-}}
+	ec$0
+}
 ]]></content>
 	<tabTrigger>qod</tabTrigger>
 	<scope>source.cfscript.embedded.cfml,source.cfscript.cfc</scope>
